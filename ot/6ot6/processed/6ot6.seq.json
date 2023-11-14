@@ -1,0 +1,4273 @@
+[
+  {
+    "data": [
+      {
+        "aa": "M", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "1", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "A", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "2", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "A", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "3", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "A", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "4", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "A", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "5", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "A", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "6", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "A", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "7", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "G", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "8", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 9, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 20: E10.CB, E10.OE1", 
+          "Pocket 46: E10.CD, E10.CG"
+        ], 
+        "seqid": 10, 
+        "poc": [
+          20, 
+          46
+        ]
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 77: M11.CA, M11.CB, M11.CE, M11.CG"
+        ], 
+        "seqid": 11, 
+        "poc": [
+          77
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 29: V12.CB, V12.CG2, V12.N, V12.O", 
+          "Pocket 37: V12.CB, V12.CG2", 
+          "Pocket 46: V12.CB", 
+          "Pocket 77: V12.N"
+        ], 
+        "seqid": 12, 
+        "poc": [
+          77, 
+          29, 
+          46, 
+          37
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 13, 
+        "poc": []
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 77: G14.C, G14.CA, G14.N"
+        ], 
+        "seqid": 14, 
+        "poc": [
+          77
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 29: Q15.CB, Q15.O", 
+          "Pocket 49: Q15.CD, Q15.NE2, Q15.OE1", 
+          "Pocket 56: Q15.CB, Q15.OE1"
+        ], 
+        "seqid": 15, 
+        "poc": [
+          56, 
+          49, 
+          29
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 56: V16.O", 
+          "Pocket 67: V16.CG1"
+        ], 
+        "seqid": 16, 
+        "poc": [
+          56, 
+          67
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 20: F17.O", 
+          "Pocket 56: F17.CD1"
+        ], 
+        "seqid": 17, 
+        "poc": [
+          56, 
+          20
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 20: D18.CA"
+        ], 
+        "seqid": 18, 
+        "poc": [
+          20
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 8: V19.O", 
+          "Pocket 20: V19.CG2, V19.N", 
+          "Pocket 31: V19.C, V19.CB, V19.CG2", 
+          "Pocket 54: V19.CB, V19.CG1"
+        ], 
+        "seqid": 19, 
+        "poc": [
+          8, 
+          20, 
+          54, 
+          31
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 8: G20.CA", 
+          "Pocket 20: G20.N, G20.O", 
+          "Pocket 31: G20.O"
+        ], 
+        "seqid": 20, 
+        "poc": [
+          8, 
+          20, 
+          31
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 8: P21.CD, P21.CG"
+        ], 
+        "seqid": 21, 
+        "poc": [
+          8
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 8: R22.CB, R22.CD, R22.N, R22.NH1", 
+          "Pocket 27: R22.NH2"
+        ], 
+        "seqid": 22, 
+        "poc": [
+          8, 
+          27
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 8: Y23.CD2, Y23.CE2", 
+          "Pocket 20: Y23.O", 
+          "Pocket 27: Y23.OH", 
+          "Pocket 31: Y23.C, Y23.CB, Y23.O"
+        ], 
+        "seqid": 23, 
+        "poc": [
+          8, 
+          27, 
+          20, 
+          31
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 24, 
+        "poc": []
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 25, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 20: L26.CD1", 
+          "Pocket 37: L26.CD1, L26.CG", 
+          "Pocket 46: L26.CD1, L26.CG"
+        ], 
+        "seqid": 26, 
+        "poc": [
+          20, 
+          37, 
+          46
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "modified residue: Phosphoserine; by SGK1"
+        ], 
+        "seqid": 27, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 28, 
+        "poc": []
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: I29.CD1, I29.CG2, I29.O"
+        ], 
+        "seqid": 29, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: G30.C, G30.CA"
+        ], 
+        "seqid": 30, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: E31.C, E31.N, E31.O", 
+          "Pocket 49: E31.OE1, E31.OE2"
+        ], 
+        "seqid": 31, 
+        "poc": [
+          1, 
+          49
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: G32.CA, G32.HA2"
+        ], 
+        "seqid": 32, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: A33.CB, A33.N"
+        ], 
+        "seqid": 33, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: Y34.CD2, Y34.CE2, Y34.N, Y34.OH"
+        ], 
+        "seqid": 34, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: G35.C, G35.N, G35.O"
+        ], 
+        "seqid": 35, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: M36.O", 
+          "Pocket 29: M36.SD", 
+          "Pocket 49: M36.CB, M36.CE", 
+          "Pocket 56: M36.CB, M36.SD"
+        ], 
+        "seqid": 36, 
+        "poc": [
+          56, 
+          1, 
+          29, 
+          49
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: V37.CB, V37.CG1, V37.CG2, V37.HG11, V37.HG21"
+        ], 
+        "seqid": 37, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 37: C38.SG"
+        ], 
+        "seqid": 38, 
+        "poc": [
+          37
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 39, 
+        "poc": []
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 40, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 41, 
+        "poc": []
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 27: D42.OD2"
+        ], 
+        "seqid": 42, 
+        "poc": [
+          27
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 43, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 44, 
+        "poc": []
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 27: N45.ND2"
+        ], 
+        "seqid": 45, 
+        "poc": [
+          27
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 46, 
+        "poc": []
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 47, 
+        "poc": []
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 48, 
+        "poc": []
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 27: V49.CG1"
+        ], 
+        "seqid": 49, 
+        "poc": [
+          27
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: A50.CB", 
+          "Pocket 57: A50.CB, A50.O"
+        ], 
+        "seqid": 50, 
+        "poc": [
+          1, 
+          57
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 54: I51.CB, I51.CD1, I51.CG1"
+        ], 
+        "seqid": 51, 
+        "poc": [
+          54
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "binding site: ATP", 
+          "Pocket 1: K52.CB, K52.CD, K52.CE, K52.CG, K52.NZ", 
+          "Pocket 57: K52.CG"
+        ], 
+        "seqid": 52, 
+        "poc": [
+          1, 
+          57
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: K53.O", 
+          "Pocket 35: K53.CD, K53.CE, K53.CG", 
+          "Pocket 56: K53.CD", 
+          "Pocket 67: K53.NZ"
+        ], 
+        "seqid": 53, 
+        "poc": [
+          56, 
+          1, 
+          67, 
+          35
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: I54.CD1, I54.CG1, I54.CG2", 
+          "Pocket 62: I54.CB, I54.CG1"
+        ], 
+        "seqid": 54, 
+        "poc": [
+          1, 
+          62
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 55, 
+        "poc": []
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 78: P56.CG"
+        ], 
+        "seqid": 56, 
+        "poc": [
+          78
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 78: F57.CZ"
+        ], 
+        "seqid": 57, 
+        "poc": [
+          78
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 71: E58.CB, E58.OE2"
+        ], 
+        "seqid": 58, 
+        "poc": [
+          71
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 71: H59.N"
+        ], 
+        "seqid": 59, 
+        "poc": [
+          71
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 26: Q60.C, Q60.CB, Q60.CG"
+        ], 
+        "seqid": 60, 
+        "poc": [
+          26
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 26: T61.CA A, T61.CB A, T61.N"
+        ], 
+        "seqid": 61, 
+        "poc": [
+          26
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 71: Y62.CD2"
+        ], 
+        "seqid": 62, 
+        "poc": [
+          71
+        ]
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 63, 
+        "poc": []
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 14: Q64.CB, Q64.OE1", 
+          "Pocket 26: Q64.OE1"
+        ], 
+        "seqid": 64, 
+        "poc": [
+          26, 
+          14
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: R65.C, R65.CB, R65.CD, R65.O", 
+          "Pocket 14: R65.CG, R65.HH11, R65.NH1", 
+          "Pocket 44: R65.NH1"
+        ], 
+        "seqid": 65, 
+        "poc": [
+          1, 
+          44, 
+          14
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: T66.CA, T66.CG2, T66.O, T66.OG1", 
+          "Pocket 62: T66.CG2", 
+          "Pocket 78: T66.CG2"
+        ], 
+        "seqid": 66, 
+        "poc": [
+          1, 
+          78, 
+          62
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 28: L67.CD1, L67.CD2"
+        ], 
+        "seqid": 67, 
+        "poc": [
+          28
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 2: R68.NH1, R68.NH2", 
+          "Pocket 14: R68.NE, R68.NH2"
+        ], 
+        "seqid": 68, 
+        "poc": [
+          2, 
+          14
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: E69.CB, E69.CD, E69.CG, E69.OE1, E69.OE2"
+        ], 
+        "seqid": 69, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: I70.CG1", 
+          "Pocket 78: I70.CD1"
+        ], 
+        "seqid": 70, 
+        "poc": [
+          1, 
+          78
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 28: K71.CD, K71.NZ", 
+          "Pocket 53: K71.CB, K71.CE"
+        ], 
+        "seqid": 71, 
+        "poc": [
+          28, 
+          53
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 38: I72.CD1", 
+          "Pocket 73: I72.CD1"
+        ], 
+        "seqid": 72, 
+        "poc": [
+          73, 
+          38
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: L73.CD1", 
+          "Pocket 18: L73.CD2, L73.O"
+        ], 
+        "seqid": 73, 
+        "poc": [
+          1, 
+          18
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 74, 
+        "poc": []
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 3: R75.CB A, R75.NE A, R75.NH2A, R75.O  A", 
+          "Pocket 53: R75.CG A, R75.NH1A"
+        ], 
+        "seqid": 75, 
+        "poc": [
+          3, 
+          53
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: F76.CD1, F76.CE1", 
+          "Pocket 18: F76.C, F76.CB, F76.O"
+        ], 
+        "seqid": 76, 
+        "poc": [
+          18, 
+          3
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: R77.CB, R77.NH1, R77.NH2, R77.O", 
+          "Pocket 18: R77.CA"
+        ], 
+        "seqid": 77, 
+        "poc": [
+          18, 
+          3
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: H78.CD2", 
+          "Pocket 18: H78.N", 
+          "Pocket 51: H78.CD2", 
+          "Pocket 68: H78.NE2"
+        ], 
+        "seqid": 78, 
+        "poc": [
+          51, 
+          18, 
+          3, 
+          68
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 7: E79.CB, E79.O, E79.OE1", 
+          "Pocket 51: E79.CG, E79.N"
+        ], 
+        "seqid": 79, 
+        "poc": [
+          51, 
+          7
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 7: N80.ND2, N80.OD1"
+        ], 
+        "seqid": 80, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "B", 
+        "anno": [
+          "Pocket 18: I81.CB, I81.CG2, I81.O", 
+          "Pocket 79: I81.CD1, I81.CG1"
+        ], 
+        "seqid": 81, 
+        "poc": [
+          18, 
+          79
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 1: I82.CD1, I82.CG1, I82.CG2", 
+          "Pocket 18: I82.O", 
+          "Pocket 48: I82.CD1"
+        ], 
+        "seqid": 82, 
+        "poc": [
+          48, 
+          1, 
+          18
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 18: G83.CA", 
+          "Pocket 48: G83.CA, G83.N, G83.O"
+        ], 
+        "seqid": 83, 
+        "poc": [
+          48, 
+          18
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 1: I84.CD1, I84.CG1", 
+          "Pocket 34: I84.CG2"
+        ], 
+        "seqid": 84, 
+        "poc": [
+          1, 
+          34
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 27: N85.CB, N85.ND2", 
+          "Pocket 48: N85.OD1"
+        ], 
+        "seqid": 85, 
+        "poc": [
+          48, 
+          27
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 8: D86.CG, D86.OD1, D86.OD2", 
+          "Pocket 34: D86.O"
+        ], 
+        "seqid": 86, 
+        "poc": [
+          8, 
+          34
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 8: I87.O", 
+          "Pocket 30: I87.O", 
+          "Pocket 34: I87.CA, I87.CG1", 
+          "Pocket 64: I87.O"
+        ], 
+        "seqid": 87, 
+        "poc": [
+          8, 
+          64, 
+          34, 
+          30
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 8: I88.CA, I88.CD1, I88.CG1, I88.CG2", 
+          "Pocket 54: I88.CD1"
+        ], 
+        "seqid": 88, 
+        "poc": [
+          8, 
+          54
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 8: R89.N", 
+          "Pocket 55: R89.CD, R89.CG", 
+          "Pocket 64: R89.CG"
+        ], 
+        "seqid": 89, 
+        "poc": [
+          8, 
+          64, 
+          55
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 90, 
+        "poc": []
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 91, 
+        "poc": []
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 92, 
+        "poc": []
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 93, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 94, 
+        "poc": []
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 95, 
+        "poc": []
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 55: M96.SD"
+        ], 
+        "seqid": 96, 
+        "poc": [
+          55
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 97, 
+        "poc": []
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 35: D98.CB, D98.CG, D98.OD1", 
+          "Pocket 67: D98.OD2"
+        ], 
+        "seqid": 98, 
+        "poc": [
+          67, 
+          35
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 55: V99.CB, V99.CG2", 
+          "Pocket 62: V99.CG1", 
+          "Pocket 78: V99.CB, V99.CG1, V99.CG2"
+        ], 
+        "seqid": 99, 
+        "poc": [
+          78, 
+          62, 
+          55
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 67: Y100.OH"
+        ], 
+        "seqid": 100, 
+        "poc": [
+          67
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: I101.CD1, I101.CG1, I101.CG2", 
+          "Pocket 57: I101.O", 
+          "Pocket 62: I101.CD1, I101.CG1"
+        ], 
+        "seqid": 101, 
+        "poc": [
+          1, 
+          62, 
+          57
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 27: V102.CG1", 
+          "Pocket 54: V102.CG2"
+        ], 
+        "seqid": 102, 
+        "poc": [
+          27, 
+          54
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: Q103.CB, Q103.NE2, Q103.OE1", 
+          "Pocket 57: Q103.CB, Q103.OE1"
+        ], 
+        "seqid": 103, 
+        "poc": [
+          1, 
+          57
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: D104.O", 
+          "Pocket 48: D104.CB, D104.CG, D104.N"
+        ], 
+        "seqid": 104, 
+        "poc": [
+          48, 
+          1
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 1: L105.CD1"
+        ], 
+        "seqid": 105, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 1: M106.CB, M106.CG, M106.N, M106.O"
+        ], 
+        "seqid": 106, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 1: E107.O  B"
+        ], 
+        "seqid": 107, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: T108.C, T108.CA, T108.O"
+        ], 
+        "seqid": 108, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: D109.CB, D109.OD2"
+        ], 
+        "seqid": 109, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 110, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: Y111.CD2, Y111.CE2", 
+          "Pocket 10: Y111.CA, Y111.CD1, Y111.CE1, Y111.O"
+        ], 
+        "seqid": 111, 
+        "poc": [
+          1, 
+          10
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 1: K112.CE, K112.NZ"
+        ], 
+        "seqid": 112, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 113, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 10: L114.C, L114.CB, L114.CD1, L114.O"
+        ], 
+        "seqid": 114, 
+        "poc": [
+          10
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 10: K115.CD, K115.CE, K115.NZ"
+        ], 
+        "seqid": 115, 
+        "poc": [
+          10
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 116, 
+        "poc": []
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "mutagenesis site: Q->A. Reduced affinity for DCC. Strongly reduced affinity for DCC; when associated with A-123."
+        ], 
+        "seqid": 117, 
+        "poc": []
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 6: H118.CD2, H118.CE1, H118.NE2"
+        ], 
+        "seqid": 118, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 6: L119.N, L119.O"
+        ], 
+        "seqid": 119, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 6: S120.CA"
+        ], 
+        "seqid": 120, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 6: N121.CA, N121.CB, N121.N, N121.OD1", 
+          "Pocket 42: N121.ND2"
+        ], 
+        "seqid": 121, 
+        "poc": [
+          42, 
+          6
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 39: D122.CA, D122.CB, D122.O, D122.OD1", 
+          "Pocket 42: D122.CA, D122.OD1"
+        ], 
+        "seqid": 122, 
+        "poc": [
+          42, 
+          39
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "mutagenesis site: H->A. Reduced affinity for DCC. Strongly reduced affinity for DCC; when associated with A-117."
+        ], 
+        "seqid": 123, 
+        "poc": []
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 6: I124.CD1"
+        ], 
+        "seqid": 124, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 39: C125.CB", 
+          "Pocket 42: C125.CB"
+        ], 
+        "seqid": 125, 
+        "poc": [
+          42, 
+          39
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 7: Y126.CE1, Y126.OH"
+        ], 
+        "seqid": 126, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 127, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 60: L128.CD1"
+        ], 
+        "seqid": 128, 
+        "poc": [
+          60
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 7: Y129.CD2, Y129.CE2, Y129.HE2, Y129.OH"
+        ], 
+        "seqid": 129, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 7: Q130.CG, Q130.OE1"
+        ], 
+        "seqid": 130, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 12: I131.CD1, I131.CG1, I131.CG2", 
+          "Pocket 60: I131.CD1", 
+          "Pocket 70: I131.CG2"
+        ], 
+        "seqid": 131, 
+        "poc": [
+          60, 
+          12, 
+          70
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 24: L132.CD2"
+        ], 
+        "seqid": 132, 
+        "poc": [
+          24
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 7: R133.CD, R133.CZ, R133.NE, R133.NH1, R133.NH2", 
+          "Pocket 51: R133.NH1, R133.NH2", 
+          "Pocket 61: R133.O", 
+          "Pocket 68: R133.O"
+        ], 
+        "seqid": 133, 
+        "poc": [
+          51, 
+          68, 
+          61, 
+          7
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 134, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 24: L135.CD2, L135.CG, L135.HD23", 
+          "Pocket 79: L135.CD1"
+        ], 
+        "seqid": 135, 
+        "poc": [
+          24, 
+          79
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 5: K136.CG, K136.O", 
+          "Pocket 21: K136.CD, K136.CE, K136.NZ", 
+          "Pocket 61: K136.CD"
+        ], 
+        "seqid": 136, 
+        "poc": [
+          61, 
+          5, 
+          21
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 3: Y137.CE2, Y137.CZ, Y137.HH, Y137.OH"
+        ], 
+        "seqid": 137, 
+        "poc": [
+          3
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 79: I138.CB, I138.CD1, I138.CG1"
+        ], 
+        "seqid": 138, 
+        "poc": [
+          79
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 5: H139.C, H139.CB, H139.CE1, H139.ND1", 
+          "Pocket 52: H139.CE1, H139.ND1"
+        ], 
+        "seqid": 139, 
+        "poc": [
+          52, 
+          5
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 5: S140.CA, S140.CB, S140.N"
+        ], 
+        "seqid": 140, 
+        "poc": [
+          5
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 3: A141.CB"
+        ], 
+        "seqid": 141, 
+        "poc": [
+          3
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 142, 
+        "poc": []
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 38: V143.CG1, V143.CG2"
+        ], 
+        "seqid": 143, 
+        "poc": [
+          38
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [], 
+        "seqid": 144, 
+        "poc": []
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 58: H145.O"
+        ], 
+        "seqid": 145, 
+        "poc": [
+          58
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 11: R146.C, R146.CA, R146.O", 
+          "Pocket 44: R146.NH1", 
+          "Pocket 50: R146.NH1, R146.O", 
+          "Pocket 59: R146.CB, R146.NH1, R146.O", 
+          "Pocket 65: R146.NH1"
+        ], 
+        "seqid": 146, 
+        "poc": [
+          59, 
+          50, 
+          11, 
+          44, 
+          65
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "active site: Proton acceptor", 
+          "Pocket 11: D147.CA, D147.OD1", 
+          "Pocket 45: D147.CB, D147.OD2", 
+          "Pocket 58: D147.CB"
+        ], 
+        "seqid": 147, 
+        "poc": [
+          58, 
+          11, 
+          45
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 11: L148.N, L148.O", 
+          "Pocket 12: L148.CB, L148.CD1, L148.CD2, L148.CG", 
+          "Pocket 24: L148.CD1", 
+          "Pocket 70: L148.CD2", 
+          "Pocket 74: L148.CD2"
+        ], 
+        "seqid": 148, 
+        "poc": [
+          24, 
+          74, 
+          11, 
+          12, 
+          70
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 1: K149.CE, K149.NZ", 
+          "Pocket 11: K149.CB", 
+          "Pocket 74: K149.N, K149.O"
+        ], 
+        "seqid": 149, 
+        "poc": [
+          1, 
+          74, 
+          11
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 10: P150.CB, P150.CG"
+        ], 
+        "seqid": 150, 
+        "poc": [
+          10
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 1: S151.CB, S151.HB2, S151.O, S151.OG"
+        ], 
+        "seqid": 151, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 1: N152.ND2, N152.OD1", 
+          "Pocket 74: N152.C, N152.CB, N152.O"
+        ], 
+        "seqid": 152, 
+        "poc": [
+          1, 
+          74
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 12: L153.CD1, L153.CD2, L153.HD11", 
+          "Pocket 70: L153.CD2", 
+          "Pocket 74: L153.CD2"
+        ], 
+        "seqid": 153, 
+        "poc": [
+          74, 
+          12, 
+          70
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 1: L154.CD1, L154.CD2"
+        ], 
+        "seqid": 154, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "mutagenesis site: L->A. Reduced affinity for DCC."
+        ], 
+        "seqid": 155, 
+        "poc": []
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 156, 
+        "poc": []
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 157, 
+        "poc": []
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 158, 
+        "poc": []
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 159, 
+        "poc": []
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 7: D160.CB, D160.OD1"
+        ], 
+        "seqid": 160, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 7: L161.N, L161.O"
+        ], 
+        "seqid": 161, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 7: K162.CE, K162.CG"
+        ], 
+        "seqid": 162, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 79: I163.CD1"
+        ], 
+        "seqid": 163, 
+        "poc": [
+          79
+        ]
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 1: C164.CB, C164.HG, C164.SG"
+        ], 
+        "seqid": 164, 
+        "poc": [
+          1
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 1: D165.CA, D165.CB, D165.CG, D165.N, D165.OD1, D165.OD2", 
+          "Pocket 45: D165.O, D165.OD2", 
+          "Pocket 58: D165.O"
+        ], 
+        "seqid": 165, 
+        "poc": [
+          1, 
+          58, 
+          45
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 166, 
+        "poc": []
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 1: G167.CA", 
+          "Pocket 14: G167.O"
+        ], 
+        "seqid": 167, 
+        "poc": [
+          1, 
+          14
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 44: L168.CD2", 
+          "Pocket 45: L168.CB, L168.CG, L168.N", 
+          "Pocket 58: L168.CB, L168.N", 
+          "Pocket 59: L168.CB, L168.CD1"
+        ], 
+        "seqid": 168, 
+        "poc": [
+          58, 
+          59, 
+          44, 
+          45
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 73: A169.C, A169.CB"
+        ], 
+        "seqid": 169, 
+        "poc": [
+          73
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 2: R170.CB, R170.CD, R170.CG, R170.CZ, R170.HG2, R170.NE, R170.NH2", 
+          "Pocket 14: R170.NH2", 
+          "Pocket 38: R170.C, R170.CA", 
+          "Pocket 44: R170.CZ, R170.NH1, R170.NH2", 
+          "Pocket 73: R170.CA"
+        ], 
+        "seqid": 170, 
+        "poc": [
+          73, 
+          2, 
+          44, 
+          38, 
+          14
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "E", 
+        "anno": [
+          "Pocket 2: V171.CB, V171.CG1, V171.CG2, V171.HB, V171.N, V171.O", 
+          "Pocket 38: V171.CG2, V171.N"
+        ], 
+        "seqid": 171, 
+        "poc": [
+          2, 
+          38
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: A172.O", 
+          "Pocket 5: A172.CB"
+        ], 
+        "seqid": 172, 
+        "poc": [
+          2, 
+          5
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: D173.CB, D173.OD2"
+        ], 
+        "seqid": 173, 
+        "poc": [
+          2
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 5: P174.CG", 
+          "Pocket 41: P174.CB, P174.O"
+        ], 
+        "seqid": 174, 
+        "poc": [
+          41, 
+          5
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 175, 
+        "poc": []
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 2: H176.CB, H176.CD2, H176.CG"
+        ], 
+        "seqid": 176, 
+        "poc": [
+          2
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 4: D177.OD2"
+        ], 
+        "seqid": 177, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "B", 
+        "anno": [], 
+        "seqid": 178, 
+        "poc": []
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 22: T179.CG2", 
+          "Pocket 76: T179.CG2"
+        ], 
+        "seqid": 179, 
+        "poc": [
+          76, 
+          22
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 76: G180.O"
+        ], 
+        "seqid": 180, 
+        "poc": [
+          76
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 181, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 182, 
+        "poc": []
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "short sequence motif: TXY", 
+          "modified residue: Phosphothreonine", 
+          "Pocket 22: T183.CB, T183.CG2, T183.O", 
+          "Pocket 76: T183.CB"
+        ], 
+        "seqid": 183, 
+        "poc": [
+          76, 
+          22
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "short sequence motif: TXY", 
+          "Pocket 22: E184.O"
+        ], 
+        "seqid": 184, 
+        "poc": [
+          22
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "short sequence motif: TXY", 
+          "modified residue: Phosphotyrosine", 
+          "Pocket 11: Y185.CE2, Y185.OH", 
+          "Pocket 22: Y185.CB, Y185.CD1", 
+          "Pocket 50: Y185.OH", 
+          "Pocket 65: Y185.CZ, Y185.OH"
+        ], 
+        "seqid": 185, 
+        "poc": [
+          65, 
+          50, 
+          11, 
+          22
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 44: V186.CG1", 
+          "Pocket 59: V186.CG1", 
+          "Pocket 65: V186.CG1"
+        ], 
+        "seqid": 186, 
+        "poc": [
+          65, 
+          59, 
+          44
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 11: A187.CB", 
+          "Pocket 50: A187.CB", 
+          "Pocket 59: A187.CB", 
+          "Pocket 65: A187.CB"
+        ], 
+        "seqid": 187, 
+        "poc": [
+          59, 
+          50, 
+          11, 
+          65
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "modified residue: Phosphothreonine; by autocatalysis", 
+          "Pocket 11: T188.CB, T188.N, T188.O"
+        ], 
+        "seqid": 188, 
+        "poc": [
+          11
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 36: R189.CD, R189.CG, R189.NE, R189.NH1"
+        ], 
+        "seqid": 189, 
+        "poc": [
+          36
+        ]
+      }, 
+      {
+        "aa": "W", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 9: W190.CA, W190.CB, W190.CE3, W190.HB3, W190.O", 
+          "Pocket 10: W190.CH2, W190.CZ3", 
+          "Pocket 36: W190.CD1, W190.NE1", 
+          "Pocket 69: W190.O"
+        ], 
+        "seqid": 190, 
+        "poc": [
+          9, 
+          10, 
+          36, 
+          69
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 9: Y191.CD2, Y191.CE2, Y191.CZ, Y191.OH", 
+          "Pocket 10: Y191.OH", 
+          "Pocket 11: Y191.C, Y191.CB, Y191.O"
+        ], 
+        "seqid": 191, 
+        "poc": [
+          9, 
+          10, 
+          11
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 11: R192.CA, R192.CG"
+        ], 
+        "seqid": 192, 
+        "poc": [
+          11
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 193, 
+        "poc": []
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 4: P194.CB, P194.CG"
+        ], 
+        "seqid": 194, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 4: E195.CA, E195.CB, E195.CG, E195.N, E195.OE2", 
+          "Pocket 25: E195.CB, E195.CG"
+        ], 
+        "seqid": 195, 
+        "poc": [
+          25, 
+          4
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 22: I196.CG2, I196.O", 
+          "Pocket 25: I196.CD1, I196.CG1, I196.N", 
+          "Pocket 76: I196.O"
+        ], 
+        "seqid": 196, 
+        "poc": [
+          25, 
+          76, 
+          22
+        ]
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 197, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 4: L198.CB, L198.CD1"
+        ], 
+        "seqid": 198, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 4: N199.CG, N199.ND2, N199.O, N199.OD1", 
+          "Pocket 76: N199.N"
+        ], 
+        "seqid": 199, 
+        "poc": [
+          76, 
+          4
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "B", 
+        "anno": [
+          "Pocket 4: S200.CB, S200.OG", 
+          "Pocket 22: S200.O", 
+          "Pocket 25: S200.CB", 
+          "Pocket 76: S200.N"
+        ], 
+        "seqid": 200, 
+        "poc": [
+          76, 
+          25, 
+          4, 
+          22
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: K201.HZ3, K201.NZ", 
+          "Pocket 22: K201.CA"
+        ], 
+        "seqid": 201, 
+        "poc": [
+          2, 
+          22
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 4: G202.CA"
+        ], 
+        "seqid": 202, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: Y203.CD1, Y203.CD2, Y203.CE1, Y203.CE2, Y203.CG, Y203.CZ, Y203.HE2, Y203.OH"
+        ], 
+        "seqid": 203, 
+        "poc": [
+          2
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 4: T204.CG2A, T204.OG1A", 
+          "Pocket 5: T204.CA A", 
+          "Pocket 41: T204.CG2A"
+        ], 
+        "seqid": 204, 
+        "poc": [
+          41, 
+          4, 
+          5
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 5: K205.C, K205.CB, K205.CD, K205.CG, K205.N, K205.NZ"
+        ], 
+        "seqid": 205, 
+        "poc": [
+          5
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 4: S206.OG", 
+          "Pocket 5: S206.CA, S206.CB, S206.N"
+        ], 
+        "seqid": 206, 
+        "poc": [
+          4, 
+          5
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 4: I207.CA A, I207.CB A, I207.CD1A, I207.N  A", 
+          "Pocket 11: I207.CD1A, I207.CG1A, I207.CG2A, I207.O  A"
+        ], 
+        "seqid": 207, 
+        "poc": [
+          11, 
+          4
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 11: D208.CA, D208.OD1"
+        ], 
+        "seqid": 208, 
+        "poc": [
+          11
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 5: I209.CG1, I209.HG13", 
+          "Pocket 24: I209.CD1", 
+          "Pocket 52: I209.CG1"
+        ], 
+        "seqid": 209, 
+        "poc": [
+          24, 
+          52, 
+          5
+        ]
+      }, 
+      {
+        "aa": "W", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 69: W210.NE1"
+        ], 
+        "seqid": 210, 
+        "poc": [
+          69
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 11: S211.OG", 
+          "Pocket 12: S211.C, S211.CB, S211.O"
+        ], 
+        "seqid": 211, 
+        "poc": [
+          11, 
+          12
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 12: V212.CA, V212.CG1, V212.CG2, V212.N", 
+          "Pocket 24: V212.CB, V212.CG2", 
+          "Pocket 60: V212.CG1, V212.O"
+        ], 
+        "seqid": 212, 
+        "poc": [
+          24, 
+          60, 
+          12
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 213, 
+        "poc": []
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 9: C214.C, C214.CB, C214.O"
+        ], 
+        "seqid": 214, 
+        "poc": [
+          9
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 12: I215.CB, I215.CD1, I215.CG1, I215.CG2, I215.HD12", 
+          "Pocket 60: I215.CB, I215.CG2", 
+          "Pocket 70: I215.CD1"
+        ], 
+        "seqid": 215, 
+        "poc": [
+          60, 
+          12, 
+          70
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 60: L216.N"
+        ], 
+        "seqid": 216, 
+        "poc": [
+          60
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 13: A217.C, A217.CB, A217.O"
+        ], 
+        "seqid": 217, 
+        "poc": [
+          13
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 9: E218.OE1", 
+          "Pocket 10: E218.CG, E218.OE2"
+        ], 
+        "seqid": 218, 
+        "poc": [
+          9, 
+          10
+        ]
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 6: M219.O"
+        ], 
+        "seqid": 219, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 6: L220.CA, L220.CB, L220.CD2, L220.O"
+        ], 
+        "seqid": 220, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 13: S221.CB, S221.OG"
+        ], 
+        "seqid": 221, 
+        "poc": [
+          13
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 6: N222.OD1", 
+          "Pocket 10: N222.C, N222.O"
+        ], 
+        "seqid": 222, 
+        "poc": [
+          10, 
+          6
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 10: R223.CA", 
+          "Pocket 13: R223.CD, R223.CG, R223.CZ, R223.NE, R223.NH2, R223.O"
+        ], 
+        "seqid": 223, 
+        "poc": [
+          10, 
+          13
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 9: P224.CA, P224.CB", 
+          "Pocket 10: P224.CD, P224.CG"
+        ], 
+        "seqid": 224, 
+        "poc": [
+          9, 
+          10
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 9: I225.CG2, I225.HG22, I225.N", 
+          "Pocket 13: I225.CA, I225.CB, I225.CD1, I225.CG1, I225.O"
+        ], 
+        "seqid": 225, 
+        "poc": [
+          9, 
+          13
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 9: F226.C, F226.N, F226.O", 
+          "Pocket 69: F226.CD2"
+        ], 
+        "seqid": 226, 
+        "poc": [
+          9, 
+          69
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 227, 
+        "poc": []
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 36: G228.O"
+        ], 
+        "seqid": 228, 
+        "poc": [
+          36
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 229, 
+        "poc": []
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 230, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 231, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 232, 
+        "poc": []
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 32: D233.O, D233.OD1"
+        ], 
+        "seqid": 233, 
+        "poc": [
+          32
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 69: Q234.NE2"
+        ], 
+        "seqid": 234, 
+        "poc": [
+          69
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 17: L235.CG"
+        ], 
+        "seqid": 235, 
+        "poc": [
+          17
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 17: N236.CA, N236.CG, N236.ND2, N236.OD1", 
+          "Pocket 32: N236.CB, N236.CG"
+        ], 
+        "seqid": 236, 
+        "poc": [
+          32, 
+          17
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 237, 
+        "poc": []
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 238, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 16: L239.CD1", 
+          "Pocket 17: L239.CB, L239.CD1", 
+          "Pocket 47: L239.CD2"
+        ], 
+        "seqid": 239, 
+        "poc": [
+          16, 
+          17, 
+          47
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 240, 
+        "poc": []
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 13: I241.CD1B", 
+          "Pocket 40: I241.CB B, I241.CG1B, I241.CG2B, I241.O"
+        ], 
+        "seqid": 241, 
+        "poc": [
+          40, 
+          13
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 47: L242.CB", 
+          "Pocket 72: L242.CD2"
+        ], 
+        "seqid": 242, 
+        "poc": [
+          72, 
+          47
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 47: G243.O"
+        ], 
+        "seqid": 243, 
+        "poc": [
+          47
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "modified residue: Phosphoserine", 
+          "Pocket 16: S244.CA, S244.CB, S244.OG"
+        ], 
+        "seqid": 244, 
+        "poc": [
+          16
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 16: P245.CD", 
+          "Pocket 19: P245.O", 
+          "Pocket 47: P245.CA, P245.CD"
+        ], 
+        "seqid": 245, 
+        "poc": [
+          16, 
+          19, 
+          47
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "modified residue: Phosphoserine", 
+          "Pocket 19: S246.C, S246.O"
+        ], 
+        "seqid": 246, 
+        "poc": [
+          19
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 19: Q247.CA"
+        ], 
+        "seqid": 247, 
+        "poc": [
+          19
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 248, 
+        "poc": []
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 4: D249.CB, D249.O"
+        ], 
+        "seqid": 249, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 19: L250.CB, L250.CG", 
+          "Pocket 66: L250.CD1"
+        ], 
+        "seqid": 250, 
+        "poc": [
+          66, 
+          19
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 15: N251.CA, N251.CB, N251.CG, N251.HB3, N251.ND2, N251.O, N251.OD1"
+        ], 
+        "seqid": 251, 
+        "poc": [
+          15
+        ]
+      }, 
+      {
+        "aa": "C", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 4: C252.CB, C252.O"
+        ], 
+        "seqid": 252, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 4: I253.CD1, I253.CG1"
+        ], 
+        "seqid": 253, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 15: I254.CA, I254.CB, I254.CD1, I254.CG1, I254.HD12, I254.HD13"
+        ], 
+        "seqid": 254, 
+        "poc": [
+          15
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 255, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 256, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 257, 
+        "poc": []
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 258, 
+        "poc": []
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 15: R259.NH2A", 
+          "Pocket 66: R259.CG A, R259.NH1A"
+        ], 
+        "seqid": 259, 
+        "poc": [
+          66, 
+          15
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 260, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 17: Y261.CE1, Y261.OH"
+        ], 
+        "seqid": 261, 
+        "poc": [
+          17
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 16: L262.CB, L262.CD2, L262.O"
+        ], 
+        "seqid": 262, 
+        "poc": [
+          16
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 66: L263.CD1, L263.CD2"
+        ], 
+        "seqid": 263, 
+        "poc": [
+          66
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 264, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 16: L265.CB, L265.CD1", 
+          "Pocket 17: L265.CD1, L265.CD2"
+        ], 
+        "seqid": 265, 
+        "poc": [
+          16, 
+          17
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 16: P266.O"
+        ], 
+        "seqid": 266, 
+        "poc": [
+          16
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [], 
+        "seqid": 267, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 16: K268.NZ", 
+          "Pocket 17: K268.NZ"
+        ], 
+        "seqid": 268, 
+        "poc": [
+          16, 
+          17
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [], 
+        "seqid": 269, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 23: K270.C, K270.CB, K270.CG", 
+          "Pocket 72: K270.NZ"
+        ], 
+        "seqid": 270, 
+        "poc": [
+          72, 
+          23
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 23: V271.O", 
+          "Pocket 40: V271.O"
+        ], 
+        "seqid": 271, 
+        "poc": [
+          40, 
+          23
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 23: P272.CA"
+        ], 
+        "seqid": 272, 
+        "poc": [
+          23
+        ]
+      }, 
+      {
+        "aa": "W", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 72: W273.CZ2"
+        ], 
+        "seqid": 273, 
+        "poc": [
+          72
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 274, 
+        "poc": []
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 275, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 13: L276.CB, L276.CD1, L276.CD2, L276.O", 
+          "Pocket 40: L276.CD1"
+        ], 
+        "seqid": 276, 
+        "poc": [
+          40, 
+          13
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 6: F277.CA, F277.CB, F277.CD1", 
+          "Pocket 13: F277.CE1, F277.CZ", 
+          "Pocket 43: F277.O"
+        ], 
+        "seqid": 277, 
+        "poc": [
+          43, 
+          13, 
+          6
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 278, 
+        "poc": []
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 6: N279.C, N279.CB, N279.N, N279.ND2, N279.O"
+        ], 
+        "seqid": 279, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 6: A280.CA, A280.CB, A280.HA, A280.N", 
+          "Pocket 43: A280.O"
+        ], 
+        "seqid": 280, 
+        "poc": [
+          43, 
+          6
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 6: D281.N"
+        ], 
+        "seqid": 281, 
+        "poc": [
+          6
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "modified residue: Phosphoserine"
+        ], 
+        "seqid": 282, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 283, 
+        "poc": []
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 284, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 43: L285.CD1, L285.CD2, L285.CG"
+        ], 
+        "seqid": 285, 
+        "poc": [
+          43
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 63: D286.OD1"
+        ], 
+        "seqid": 286, 
+        "poc": [
+          63
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 287, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 288, 
+        "poc": []
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 63: D289.CB, D289.OD2", 
+          "Pocket 72: D289.OD1"
+        ], 
+        "seqid": 289, 
+        "poc": [
+          72, 
+          63
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 63: K290.NZ", 
+          "Pocket 75: K290.CA, K290.O"
+        ], 
+        "seqid": 290, 
+        "poc": [
+          75, 
+          63
+        ]
+      }, 
+      {
+        "aa": "M", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 291, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 72: L292.O"
+        ], 
+        "seqid": 292, 
+        "poc": [
+          72
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 75: T293.CB A, T293.OG1A"
+        ], 
+        "seqid": 293, 
+        "poc": [
+          75
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 4: F294.CD2, F294.CE2, F294.CZ, F294.O", 
+          "Pocket 47: F294.CB, F294.CD1"
+        ], 
+        "seqid": 294, 
+        "poc": [
+          4, 
+          47
+        ]
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 4: N295.CA, N295.CB, N295.CG, N295.ND2, N295.OD1"
+        ], 
+        "seqid": 295, 
+        "poc": [
+          4
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 4: P296.CB, P296.CD, P296.CG", 
+          "Pocket 33: P296.O"
+        ], 
+        "seqid": 296, 
+        "poc": [
+          33, 
+          4
+        ]
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 4: H297.CD2, H297.CE1, H297.NE2", 
+          "Pocket 33: H297.O", 
+          "Pocket 41: H297.CE1"
+        ], 
+        "seqid": 297, 
+        "poc": [
+          33, 
+          4, 
+          41
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 75: K298.O"
+        ], 
+        "seqid": 298, 
+        "poc": [
+          75
+        ]
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 5: R299.CB, R299.O", 
+          "Pocket 33: R299.O"
+        ], 
+        "seqid": 299, 
+        "poc": [
+          33, 
+          5
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 5: I300.C, I300.O"
+        ], 
+        "seqid": 300, 
+        "poc": [
+          5
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "P", 
+        "anno": [
+          "Pocket 5: E301.CA, E301.CB, E301.CD, E301.CG, E301.N, E301.OE1, E301.OE2", 
+          "Pocket 33: E301.CG, E301.OE2"
+        ], 
+        "seqid": 301, 
+        "poc": [
+          33, 
+          5
+        ]
+      }, 
+      {
+        "aa": "V", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 5: V302.CG1, V302.N", 
+          "Pocket 24: V302.CG2", 
+          "Pocket 52: V302.N"
+        ], 
+        "seqid": 302, 
+        "poc": [
+          24, 
+          52, 
+          5
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 5: E303.CB, E303.CD, E303.CG, E303.N, E303.OE2", 
+          "Pocket 21: E303.CA, E303.CB, E303.CG, E303.O"
+        ], 
+        "seqid": 303, 
+        "poc": [
+          5, 
+          21
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 304, 
+        "poc": []
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 305, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 21: L306.CB, L306.CD1"
+        ], 
+        "seqid": 306, 
+        "poc": [
+          21
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 307, 
+        "poc": []
+      }, 
+      {
+        "aa": "H", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 308, 
+        "poc": []
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 309, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 310, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 311, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 312, 
+        "poc": []
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 39: Q313.NE2", 
+          "Pocket 42: Q313.NE2"
+        ], 
+        "seqid": 313, 
+        "poc": [
+          42, 
+          39
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 39: Y314.CE2, Y314.OH"
+        ], 
+        "seqid": 314, 
+        "poc": [
+          39
+        ]
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 21: Y315.CE1, Y315.OH"
+        ], 
+        "seqid": 315, 
+        "poc": [
+          21
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 316, 
+        "poc": []
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 21: P317.CB"
+        ], 
+        "seqid": 317, 
+        "poc": [
+          21
+        ]
+      }, 
+      {
+        "aa": "S", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 318, 
+        "poc": []
+      }, 
+      {
+        "aa": "N", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 7: N319.ND2"
+        ], 
+        "seqid": 319, 
+        "poc": [
+          7
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 21: E320.OE1", 
+          "Pocket 61: E320.C, E320.CA", 
+          "Pocket 68: E320.C, E320.CA"
+        ], 
+        "seqid": 320, 
+        "poc": [
+          68, 
+          21, 
+          61
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: P321.CB, P321.CG", 
+          "Pocket 51: P321.CG", 
+          "Pocket 61: P321.O", 
+          "Pocket 68: P321.N, P321.O"
+        ], 
+        "seqid": 321, 
+        "poc": [
+          51, 
+          3, 
+          68, 
+          61
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: I322.O"
+        ], 
+        "seqid": 322, 
+        "poc": [
+          3
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: A323.CA, A323.CB"
+        ], 
+        "seqid": 323, 
+        "poc": [
+          3
+        ]
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 3: E324.CB, E324.CD, E324.CG, E324.N, E324.OE1, E324.OE2"
+        ], 
+        "seqid": 324, 
+        "poc": [
+          3
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 3: A325.CB, A325.N, A325.O"
+        ], 
+        "seqid": 325, 
+        "poc": [
+          3
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 326, 
+        "poc": []
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 3: F327.CB, F327.CD1", 
+          "Pocket 38: F327.CD2, F327.CE2", 
+          "Pocket 53: F327.CE1, F327.CZ"
+        ], 
+        "seqid": 327, 
+        "poc": [
+          3, 
+          53, 
+          38
+        ]
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 328, 
+        "poc": []
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: F329.CB, F329.CD1, F329.CD2, F329.CE2, F329.CG, F329.HB2, F329.HD2", 
+          "Pocket 38: F329.CE2", 
+          "Pocket 73: F329.CE2"
+        ], 
+        "seqid": 329, 
+        "poc": [
+          73, 
+          2, 
+          38
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "330", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "M", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "331", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: E332.CA, E332.CB, E332.CG", 
+          "Pocket 80: E332.CD, E332.OE1, E332.OE2"
+        ], 
+        "seqid": 332, 
+        "poc": [
+          80, 
+          2
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [
+          "Pocket 2: L333.CB, L333.CD1, L333.CG, L333.N"
+        ], 
+        "seqid": 333, 
+        "poc": [
+          2
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 2: D334.CB, D334.OD2", 
+          "Pocket 14: D334.OD1"
+        ], 
+        "seqid": 334, 
+        "poc": [
+          2, 
+          14
+        ]
+      }, 
+      {
+        "aa": "D", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 2: D335.OD1", 
+          "Pocket 80: D335.C, D335.CA, D335.CB, D335.CG, D335.O, D335.OD1, D335.OD2"
+        ], 
+        "seqid": 335, 
+        "poc": [
+          80, 
+          2
+        ]
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [], 
+        "seqid": 336, 
+        "poc": []
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 337, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 338, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 339, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 340, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 341, 
+        "poc": []
+      }, 
+      {
+        "aa": "K", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 342, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 343, 
+        "poc": []
+      }, 
+      {
+        "aa": "L", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 28: L344.CB, L344.CD2, L344.O"
+        ], 
+        "seqid": 344, 
+        "poc": [
+          28
+        ]
+      }, 
+      {
+        "aa": "I", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 55: I345.CG2", 
+          "Pocket 78: I345.CG2"
+        ], 
+        "seqid": 345, 
+        "poc": [
+          78, 
+          55
+        ]
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 346, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [], 
+        "seqid": 347, 
+        "poc": []
+      }, 
+      {
+        "aa": "E", 
+        "ch": "A", 
+        "ss": "H", 
+        "anno": [
+          "Pocket 28: E348.OE1"
+        ], 
+        "seqid": 348, 
+        "poc": [
+          28
+        ]
+      }, 
+      {
+        "aa": "T", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 30: T349.O", 
+          "Pocket 55: T349.CB, T349.CG2, T349.OG1", 
+          "Pocket 64: T349.O"
+        ], 
+        "seqid": 349, 
+        "poc": [
+          64, 
+          30, 
+          55
+        ]
+      }, 
+      {
+        "aa": "A", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 350, 
+        "poc": []
+      }, 
+      {
+        "aa": "R", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [], 
+        "seqid": 351, 
+        "poc": []
+      }, 
+      {
+        "aa": "F", 
+        "ch": "A", 
+        "ss": "G", 
+        "anno": [
+          "Pocket 8: F352.O", 
+          "Pocket 30: F352.C, F352.CA, F352.CB", 
+          "Pocket 34: F352.CE1"
+        ], 
+        "seqid": 352, 
+        "poc": [
+          8, 
+          34, 
+          30
+        ]
+      }, 
+      {
+        "aa": "Q", 
+        "ch": "A", 
+        "ss": "S", 
+        "anno": [
+          "Pocket 8: Q353.OE1", 
+          "Pocket 30: Q353.OE1", 
+          "Pocket 64: Q353.OE1"
+        ], 
+        "seqid": 353, 
+        "poc": [
+          8, 
+          64, 
+          30
+        ]
+      }, 
+      {
+        "aa": "P", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [
+          "Pocket 8: P354.CA, P354.CD, P354.CG"
+        ], 
+        "seqid": 354, 
+        "poc": [
+          8
+        ]
+      }, 
+      {
+        "aa": "G", 
+        "ch": "A", 
+        "ss": "T", 
+        "anno": [], 
+        "seqid": 355, 
+        "poc": []
+      }, 
+      {
+        "aa": "Y", 
+        "ch": "A", 
+        "ss": " ", 
+        "anno": [], 
+        "seqid": 356, 
+        "poc": []
+      }, 
+      {
+        "aa": "R", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "357", 
+        "ss": "x"
+      }, 
+      {
+        "aa": "S", 
+        "anno": [], 
+        "ch": "A", 
+        "seqid": "358", 
+        "ss": "x"
+      }
+    ], 
+    "spid": "P63086", 
+    "chain": "A"
+  }
+]

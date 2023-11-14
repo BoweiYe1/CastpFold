@@ -1,0 +1,100 @@
+[
+  {
+    "ft": "short sequence motif", 
+    "ch": "A", 
+    "dscr": "TXY", 
+    "pos": "183-185", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "active site", 
+    "ch": "A", 
+    "dscr": "Proton acceptor", 
+    "pos": "147", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "29-37", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "52", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphoserine; by SGK1", 
+    "pos": "27", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphothreonine", 
+    "pos": "183", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphotyrosine", 
+    "pos": "185", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphothreonine; by autocatalysis", 
+    "pos": "188", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphoserine", 
+    "pos": "244", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphoserine", 
+    "pos": "246", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphoserine", 
+    "pos": "282", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "Q->A. Reduced affinity for DCC. Strongly reduced affinity for DCC; when associated with A-123.", 
+    "pos": "117", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "H->A. Reduced affinity for DCC. Strongly reduced affinity for DCC; when associated with A-117.", 
+    "pos": "123", 
+    "spid": "P63086"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "L->A. Reduced affinity for DCC.", 
+    "pos": "155", 
+    "spid": "P63086"
+  }
+]
