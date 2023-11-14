@@ -1,0 +1,17 @@
+### Predictions made by DeepFRI.
+Protein,GO_term/EC_number,Score,GO_term/EC_number name
+S0B3G5,GO:0004672,0.99843,protein kinase activity
+S0B3G5,GO:0016301,0.99750,kinase activity
+S0B3G5,GO:0016773,0.99672,"phosphotransferase activity, alcohol group as acceptor"
+S0B3G5,GO:0016772,0.99562,"transferase activity, transferring phosphorus-containing groups"
+S0B3G5,GO:0140096,0.97554,"catalytic activity, acting on a protein"
+S0B3G5,GO:0004674,0.94925,protein serine/threonine kinase activity
+S0B3G5,GO:0032555,0.92488,purine ribonucleotide binding
+S0B3G5,GO:0017076,0.92391,purine nucleotide binding
+S0B3G5,GO:0035639,0.92117,purine ribonucleoside triphosphate binding
+S0B3G5,GO:0032559,0.91636,adenyl ribonucleotide binding
+S0B3G5,GO:0030554,0.91505,adenyl nucleotide binding
+S0B3G5,GO:0005524,0.91252,ATP binding
+S0B3G5,GO:0097367,0.90986,carbohydrate derivative binding
+S0B3G5,GO:0032553,0.90850,ribonucleotide binding
+S0B3G5,GO:0005516,0.11720,calmodulin binding

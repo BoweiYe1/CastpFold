@@ -1,0 +1,121 @@
+[
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "adenyl ribonucleotide binding",
+    "pos": "349-351",
+    "spid": "GO:0032559"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "kinase activity",
+    "pos": "349-351",
+    "spid": "GO:0016301"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "purine nucleotide binding",
+    "pos": "349-351",
+    "spid": "GO:0017076"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "ATP binding",
+    "pos": "349-351",
+    "spid": "GO:0005524"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "purine ribonucleoside triphosphate binding",
+    "pos": "349-351",
+    "spid": "GO:0035639"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "carbohydrate derivative binding",
+    "pos": "349-351",
+    "spid": "GO:0097367"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "phosphotransferase activity, alcohol group as acceptor",
+    "pos": "349-351",
+    "spid": "GO:0016773"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "protein kinase activity",
+    "pos": "349-351",
+    "spid": "GO:0004672"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "transferase activity, transferring phosphorus-containing groups",
+    "pos": "349-351",
+    "spid": "GO:0016772"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "purine ribonucleotide binding",
+    "pos": "349-351",
+    "spid": "GO:0032555"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "adenyl nucleotide binding",
+    "pos": "349-351",
+    "spid": "GO:0030554"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "protein serine/threonine kinase activity",
+    "pos": "349-351",
+    "spid": "GO:0004674"
+  },
+  {
+    "ft": "Functional pocket: 1, 6",
+    "ch": "A",
+    "dscr": "calmodulin binding",
+    "pos": "18-20",
+    "spid": "GO:0005516"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "calmodulin binding",
+    "pos": "349-351",
+    "spid": "GO:0005516"
+  },
+  {
+    "ft": "Functional pocket: 16, 8, 2",
+    "ch": "A",
+    "dscr": "calmodulin binding",
+    "pos": "350-352",
+    "spid": "GO:0005516"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "catalytic activity, acting on a protein",
+    "pos": "349-351",
+    "spid": "GO:0140096"
+  },
+  {
+    "ft": "Functional pocket: 16, 1, 8",
+    "ch": "A",
+    "dscr": "ribonucleotide binding",
+    "pos": "349-351",
+    "spid": "GO:0032553"
+  }
+]

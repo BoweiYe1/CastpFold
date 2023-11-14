@@ -1,0 +1,14 @@
+### Predictions made by DeepFRI.
+Protein,GO_term/EC_number,Score,GO_term/EC_number name
+A0A2Y9RYV8,GO:0016772,0.51419,"transferase activity, transferring phosphorus-containing groups"
+A0A2Y9RYV8,GO:0140096,0.42008,"catalytic activity, acting on a protein"
+A0A2Y9RYV8,GO:0016301,0.38355,kinase activity
+A0A2Y9RYV8,GO:0019899,0.37730,enzyme binding
+A0A2Y9RYV8,GO:0016773,0.36987,"phosphotransferase activity, alcohol group as acceptor"
+A0A2Y9RYV8,GO:0004672,0.33630,protein kinase activity
+A0A2Y9RYV8,GO:0030234,0.33113,enzyme regulator activity
+A0A2Y9RYV8,GO:0098772,0.29592,molecular function regulator
+A0A2Y9RYV8,GO:0019900,0.27718,kinase binding
+A0A2Y9RYV8,GO:0019901,0.26338,protein kinase binding
+A0A2Y9RYV8,GO:0019207,0.17587,kinase regulator activity
+A0A2Y9RYV8,GO:0019887,0.17078,protein kinase regulator activity

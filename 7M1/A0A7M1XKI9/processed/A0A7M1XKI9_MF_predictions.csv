@@ -1,0 +1,16 @@
+### Predictions made by DeepFRI.
+Protein,GO_term/EC_number,Score,GO_term/EC_number name
+A0A7M1XKI9,GO:0016301,0.99991,kinase activity
+A0A7M1XKI9,GO:0016772,0.99988,"transferase activity, transferring phosphorus-containing groups"
+A0A7M1XKI9,GO:0004672,0.99986,protein kinase activity
+A0A7M1XKI9,GO:0016773,0.99985,"phosphotransferase activity, alcohol group as acceptor"
+A0A7M1XKI9,GO:0140096,0.99777,"catalytic activity, acting on a protein"
+A0A7M1XKI9,GO:0004674,0.98822,protein serine/threonine kinase activity
+A0A7M1XKI9,GO:0035639,0.98405,purine ribonucleoside triphosphate binding
+A0A7M1XKI9,GO:0005524,0.98402,ATP binding
+A0A7M1XKI9,GO:0032559,0.98368,adenyl ribonucleotide binding
+A0A7M1XKI9,GO:0032555,0.98358,purine ribonucleotide binding
+A0A7M1XKI9,GO:0030554,0.98333,adenyl nucleotide binding
+A0A7M1XKI9,GO:0017076,0.98323,purine nucleotide binding
+A0A7M1XKI9,GO:0032553,0.98015,ribonucleotide binding
+A0A7M1XKI9,GO:0097367,0.97735,carbohydrate derivative binding

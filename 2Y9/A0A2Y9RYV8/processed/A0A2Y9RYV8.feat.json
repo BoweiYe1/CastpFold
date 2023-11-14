@@ -1,0 +1,86 @@
+[
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "enzyme regulator activity",
+    "pos": "180-182",
+    "spid": "GO:0030234"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "kinase activity",
+    "pos": "180-182",
+    "spid": "GO:0016301"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "molecular function regulator",
+    "pos": "180-182",
+    "spid": "GO:0098772"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "protein kinase regulator activity",
+    "pos": "180-182",
+    "spid": "GO:0019887"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "protein kinase binding",
+    "pos": "180-182",
+    "spid": "GO:0019901"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "kinase binding",
+    "pos": "180-182",
+    "spid": "GO:0019900"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "enzyme binding",
+    "pos": "180-182",
+    "spid": "GO:0019899"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "phosphotransferase activity, alcohol group as acceptor",
+    "pos": "180-182",
+    "spid": "GO:0016773"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "protein kinase activity",
+    "pos": "180-182",
+    "spid": "GO:0004672"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "transferase activity, transferring phosphorus-containing groups",
+    "pos": "180-182",
+    "spid": "GO:0016772"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "kinase regulator activity",
+    "pos": "180-182",
+    "spid": "GO:0019207"
+  },
+  {
+    "ft": "Functional pocket: 25, 26, 5",
+    "ch": "A",
+    "dscr": "catalytic activity, acting on a protein",
+    "pos": "180-182",
+    "spid": "GO:0140096"
+  }
+]
