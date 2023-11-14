@@ -1,0 +1,450 @@
+[
+  {
+    "ft": "active site", 
+    "ch": "A", 
+    "dscr": "Proton acceptor", 
+    "pos": "127", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "10-18", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "33", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "81-83", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "86", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "129-132", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "Mg(2+)", 
+    "pos": "132", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "ATP", 
+    "pos": "145", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "A", 
+    "dscr": "Mg(2+)", 
+    "pos": "145", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "site", 
+    "ch": "A", 
+    "dscr": "CDK7 binding", 
+    "pos": "9", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "site", 
+    "ch": "A", 
+    "dscr": "CDK7 binding", 
+    "pos": "88-89", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "site", 
+    "ch": "A", 
+    "dscr": "CDK7 binding", 
+    "pos": "166", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "N-acetylmethionine", 
+    "pos": "1", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "N6-acetyllysine", 
+    "pos": "6", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphothreonine", 
+    "pos": "14", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphotyrosine; by WEE1", 
+    "pos": "15", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphotyrosine", 
+    "pos": "19", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "A", 
+    "dscr": "Phosphothreonine; by CAK and CCRK", 
+    "pos": "160", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "A", 
+    "dscr": "Y->S. In dbSNP:rs3087335.", 
+    "pos": "15", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "A", 
+    "dscr": "V->L. In dbSNP:rs11554376.", 
+    "pos": "18", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "A", 
+    "dscr": "P->L. In a glioblastoma multiforme sample; somatic mutation.", 
+    "pos": "45", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "A", 
+    "dscr": "T->S. In dbSNP:rs2069413.", 
+    "pos": "290", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "K->F. Reduced phosphorylation by CAK.", 
+    "pos": "9", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "T->A. 2-fold increase in activity.", 
+    "pos": "14", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "Y->F. 2-fold increase in activity.", 
+    "pos": "15", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "KK->EV. Reduced phosphorylation by CAK.", 
+    "pos": "88-89", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "T->A. Abolishes activity.", 
+    "pos": "160", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "A", 
+    "dscr": "L->R. Reduced phosphorylation by CAK and reduced kinase activity.", 
+    "pos": "166", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "A", 
+    "dscr": "EKIGE->AQIGQ. In Ref. 5; BAA32794.", 
+    "pos": "8-12", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "A", 
+    "dscr": "LTGEV->STGQM. In Ref. 5; BAA32794.", 
+    "pos": "25-29", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "A", 
+    "dscr": "NKRISA->YKRFST. In Ref. 5; BAA32794.", 
+    "pos": "272-277", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "A", 
+    "dscr": "FQ->LE. In Ref. 5; BAA32794.", 
+    "pos": "286-287", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "active site", 
+    "ch": "C", 
+    "dscr": "Proton acceptor", 
+    "pos": "127", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "ATP", 
+    "pos": "10-18", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "ATP", 
+    "pos": "33", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "ATP", 
+    "pos": "81-83", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "ATP", 
+    "pos": "86", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "ATP", 
+    "pos": "129-132", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "Mg(2+)", 
+    "pos": "132", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "ATP", 
+    "pos": "145", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "binding site", 
+    "ch": "C", 
+    "dscr": "Mg(2+)", 
+    "pos": "145", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "site", 
+    "ch": "C", 
+    "dscr": "CDK7 binding", 
+    "pos": "9", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "site", 
+    "ch": "C", 
+    "dscr": "CDK7 binding", 
+    "pos": "88-89", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "site", 
+    "ch": "C", 
+    "dscr": "CDK7 binding", 
+    "pos": "166", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "C", 
+    "dscr": "N-acetylmethionine", 
+    "pos": "1", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "C", 
+    "dscr": "N6-acetyllysine", 
+    "pos": "6", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "C", 
+    "dscr": "Phosphothreonine", 
+    "pos": "14", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "C", 
+    "dscr": "Phosphotyrosine; by WEE1", 
+    "pos": "15", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "C", 
+    "dscr": "Phosphotyrosine", 
+    "pos": "19", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "modified residue", 
+    "ch": "C", 
+    "dscr": "Phosphothreonine; by CAK and CCRK", 
+    "pos": "160", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "C", 
+    "dscr": "Y->S. In dbSNP:rs3087335.", 
+    "pos": "15", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "C", 
+    "dscr": "V->L. In dbSNP:rs11554376.", 
+    "pos": "18", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "C", 
+    "dscr": "P->L. In a glioblastoma multiforme sample; somatic mutation.", 
+    "pos": "45", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence variant", 
+    "ch": "C", 
+    "dscr": "T->S. In dbSNP:rs2069413.", 
+    "pos": "290", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "C", 
+    "dscr": "K->F. Reduced phosphorylation by CAK.", 
+    "pos": "9", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "C", 
+    "dscr": "T->A. 2-fold increase in activity.", 
+    "pos": "14", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "C", 
+    "dscr": "Y->F. 2-fold increase in activity.", 
+    "pos": "15", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "C", 
+    "dscr": "KK->EV. Reduced phosphorylation by CAK.", 
+    "pos": "88-89", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "C", 
+    "dscr": "T->A. Abolishes activity.", 
+    "pos": "160", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "mutagenesis site", 
+    "ch": "C", 
+    "dscr": "L->R. Reduced phosphorylation by CAK and reduced kinase activity.", 
+    "pos": "166", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "C", 
+    "dscr": "EKIGE->AQIGQ. In Ref. 5; BAA32794.", 
+    "pos": "8-12", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "C", 
+    "dscr": "LTGEV->STGQM. In Ref. 5; BAA32794.", 
+    "pos": "25-29", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "C", 
+    "dscr": "NKRISA->YKRFST. In Ref. 5; BAA32794.", 
+    "pos": "272-277", 
+    "spid": "P24941"
+  }, 
+  {
+    "ft": "sequence conflict", 
+    "ch": "C", 
+    "dscr": "FQ->LE. In Ref. 5; BAA32794.", 
+    "pos": "286-287", 
+    "spid": "P24941"
+  }
+]
