@@ -1,0 +1,11 @@
+.bannerlink, .bannerlink:visited, .bannerlink:hover, .bannerlink:active {
+    color: inherit;
+}
+
+.subbanner{
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    background-color: white;
+    border-bottom: 1px solid #e8e8e8;
+}

@@ -1,0 +1,68 @@
+.seqpanel{
+    /*font-size:0;
+    overflow-wrap: break-word;
+    line-height: 2;*/
+}
+
+.seqtext{
+    /*font-size: initial;*/
+    font-family: "Roboto Mono", monospace;
+    font-stretch: ultra-expanded;
+    color:black;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: transparent;
+    padding-right: 0.5ch;
+    padding-left: 0.5ch;
+    display: inline-block;
+    text-align: center;
+}
+
+/*
+every ss color example
+https://www.rcsb.org/pdb/explore/remediatedSequence.do?structureId=2QD1
+*/
+.seq_{
+    border-top-color: rgb(122, 122, 122);
+}
+.seqH{
+    border-top-color: rgb(255, 0, 0);
+}
+.seqB{
+    border-top-color: rgb(255, 174, 0);
+}
+.seqE{
+    border-top-color: rgb(251, 255, 0);
+}
+.seqG{
+    border-top-color: rgb(239, 67, 255);
+}
+.seqI{
+    border-top-color: rgb(255, 0, 170);
+}
+.seqT{
+    border-top-color: rgb(65, 230, 194);
+}
+.seqS{
+    border-top-color: rgb(41, 255, 22);
+}
+.seqX{
+    border-top-color: rgb(0, 0, 0);
+}
+.seqP{
+    border-top-color: rgb(74, 18, 230);
+}
+
+.displayed{
+    /*background-color: rgb(106, 145, 182);*/
+    background-color: rgb(191, 217, 236);
+    /*color: whitesmoke;*/
+}
+.annotated{
+    text-decoration: underline;
+}
+
+.legtext{
+    border-top-width: 7px;
+    font-size: 15px;
+}

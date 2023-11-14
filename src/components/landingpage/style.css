@@ -1,0 +1,7 @@
+.landingcard{
+    width:260px;
+    height:260px;
+}
+.landingcard .subtitle{
+    text-align: end;
+}

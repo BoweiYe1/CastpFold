@@ -1,0 +1,15 @@
+.test{
+    height:78vh;
+    width:50vw;
+  }
+  
+.testaffixed{
+    height:39vh;
+    width:25vw;
+}
+
+.PocsimiMember {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

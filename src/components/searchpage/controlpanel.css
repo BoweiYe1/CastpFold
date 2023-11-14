@@ -1,0 +1,20 @@
+/*TODO rename*/
+.download-button{
+    position: absolute;
+    bottom: 40;
+}
+
+.my-margin{
+    margin:8px;
+}
+
+
+.lalala a:visited{
+    color:black;
+}
+.lalala a:link{
+    color:black;
+}
+.lalala a:active{
+    color:black;
+}

@@ -1,0 +1,19 @@
+{
+    "about":[
+        {"title":"Tutorial", "subtitle":"How to use CASTp", "route":"tutorial", "path":"/infos/allabout/tutorial.html"},
+        {"title":"Background", "subtitle":"How does CASTp work", "route":"background", "path":"/infos/allabout/background.html"},
+        {"title":"References", "subtitle":"How to cite CASTp", "route":"references", "path":"/infos/allabout/references.html"},
+        {"title":"Plugin", "subtitle":"Use CASTp with other softwares", "route":"plugin", "path":"/infos/allabout/plugin.html"},
+        {"title":"FAQs", "subtitle":"Trouble shooting", "route":"questions", "path":"/infos/allabout/faqs.html"},
+        {"title":"Computation settings", "subtitle":"Internal parameters of CASTp", "route":"computation_settings", "path":"/infos/allabout/computation_settings.html"},
+        {"title":"Technical Corner", "subtitle":"Programmatic access to CASTp", "route":"technical_corner", "path":"/infos/allabout/technical_corner.html"},
+        {"title":"About CASTp 3 server", "subtitle":" ", "route":"about_casp_server", "path":"/infos/allabout/about_casp_server.html"}
+    ],
+    
+    "news":[
+        {"title":"Brand new update!", "subtitle":"Nov 18, 2018", "route":"castp_3_1", "path":"/infos/allnews/update_3_1.html"},
+        {"title":"CASTp 3.0", "subtitle":"Jul 2, 2017", "route":"new_castp_3_0", "path":"/infos/allnews/new_castp_3.html"}
+    ]
+}
+    
+    

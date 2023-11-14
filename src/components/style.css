@@ -1,0 +1,57 @@
+.logo {
+    /*TODO polish me*/
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);  
+    margin: 16px 28px 16px 28px;
+    float: left;
+}
+.mynavtitle{
+    /*TODO polish me*/
+    float:left;
+}
+
+.mynavmenuitem{
+    /*TODO polish me*/
+    float:right;
+}
+
+
+
+.test2{
+    height:78vh;
+    width:100%;
+  }
+.test div{
+  height:100%;
+}
+
+.show-ctrl{
+    bottom: 40px !important;
+    right: 40px !important;
+    position: fixed !important;
+    z-index: 1000;
+}
+
+
+
+
+/*FIXME change feature-viewer help color*/
+/*
+.svgHeader .label-as-badge{
+    background-color: yellow;
+}
+.svgHeader .popover-title{
+    background-color: yellow;
+}
+.ssHelix{
+    color:red;
+}
+.ssStrand{
+    color:blue;
+}
+*/
+
+.normal-wrap{
+    word-wrap: normal !important;
+}
