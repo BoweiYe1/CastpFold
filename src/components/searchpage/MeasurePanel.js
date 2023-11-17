@@ -19,61 +19,19 @@ class MeasurePanel extends Component {
 
         const measureTitle = <span> Pocket info <Tooltip title={measureTip} arrowPointAtCenter={true} placement='right'> <Icon type="question-circle" /> </Tooltip> </span>;
 
-        const pocketAtomTableRender = (record) => {
-            const columns = [
-                { title: 'Atom', dataIndex: 'atom', key: 'atom', align:'center' },
-                { title: <span>SASA (&#8491;<sup>2</sup>)</span>, dataIndex: 'sasa', key: 'sasa', align:'center' },
-                { title: <span>SESA (&#8491;<sup>2</sup>)</span>, dataIndex: 'sesa', key: 'sesa', align:'center' },
-            ];
-
-            return (
-                <Table
-                    columns={columns}
-                    className='pocket-atom-table'
-                    dataSource={record.atoms}
-                    pagination={false}
-                    /*onRow={(record) => {
-                        return {
-                            onClick: () => { console.log(record) },       // click row TODO
-                            onMouseEnter: () => {
-                                document.body.style.cursor = "pointer";
-                            },
-                            onMouseLeave: () => {
-                                document.body.style.cursor = "default";
-                            },
-                        };
-                    }}*/
-                />
-            );
-        }
-
-        const pocketAtomListRender =(record)=>{
-            let list = record.atoms.map((rec)=>`${rec.atom}`).join(', '); // FIXME add onClick to this zoomTo
-            return(<p style={{margin:5,paddingLeft:40}}> 
-                Atoms in pocket formation: {list}
-            </p>);
-        }
 
         const pocketResidueTableRender = (record) => {
             const columns = [
                 { title: 'Chain', dataIndex: 'chain', key: 'chain', align:'center' },
                 { title: 'Seq ID', dataIndex: 'seqId', key: 'seqId', align:'center' },
                 { title: 'AA', dataIndex: 'aa', key: 'aa', align:'center' },
-                //TODO add following back once ULTRACAST is fixed
-                //{ title: <span>SASA (&#8491;<sup>2</sup>)</span>, dataIndex: 'sasa', key: 'sasa', align:'center' },
-                //{ title: <span>SESA (&#8491;<sup>2</sup>)</span>, dataIndex: 'sesa', key: 'sesa', align:'center' },
-            ];
+                { title: 'ATOM', dataIndex: 'atom', key: 'atom', align:'center' },
+             ];
 
             return (
                 <Table
                     columns={columns}
-                    //TODO add following back once ULTRACAST is fixed
-                    //expandedRowRender={pocketAtomTableRender}
-                    expandedRowRender={pocketAtomListRender}
-
-                    dataSource={record.residues}
-                    //pagination={false}
-                    //scroll={{ y: 240 }}
+                    dataSource={record.atoms}
                     onRow={(record) => {
                         return {
                             onClick: () => { this.props.viewer.zoomTo({chain:record.chain, resi:record.seqId}) },// click row TODO zoomTo
@@ -89,59 +47,21 @@ class MeasurePanel extends Component {
             );
         }
 
-        const mouthAtomListRender =(record)=>{
-            let list = record.atoms.map((rec)=>`${rec.chain}:${rec.seqId}${rec.aa}:${rec.atom}`).join(', '); // FIXME add onClick to this zoomTo
-            return(<p style={{margin:5,paddingLeft:40}}> 
-                Atoms in mouth formation: {list}
-            </p>);
-        }
-
-        const mouthInfoTableRender = (record) => {
-            const columns = [
-                { title: <span>SA Area (&#8491;<sup>2</sup>)</span>, dataIndex: 'sama', key: 'sama', align:'center' },
-                { title: <span>SA Perimeter (&#8491;)</span>, dataIndex: 'salen', key: 'salen', align:'center' },
-                { title: <span>SE Area (&#8491;<sup>2</sup>)</span>, dataIndex: 'sema', key: 'sema', align:'center' },
-                { title: <span>SE Perimeter (&#8491;)</span>, dataIndex: 'selen', key: 'selen', align:'center' },
-            ];
-
-            return (
-                <Table
-                    columns={columns}
-                    expandedRowRender={mouthAtomListRender}
-                    dataSource={record.mouths}
-                    pagination={false}
-                    //scroll={{ y: 240 }}
-                    /*onRow={(record) => {
-                        return {
-                            onClick: () => { console.log(record) },       // click row TODO
-                            onMouseEnter: () => {
-                                document.body.style.cursor = "pointer";
-                            },
-                            onMouseLeave: () => {
-                                document.body.style.cursor = "default";
-                            },
-                        };
-                    }}*/
-                />
-            );
-
-        }
-        // key={`${record.pocId}-${record,pdbid}`}
         const pocketAndMouth = (record) => {
             console.log(record)
             return (
                 <Collapse bordered={false}>  
                     <Collapse.Panel header={ <Form layout='inline'>
                         <Form.Item label="Show negative volume">
-                        <Switch size="small" onChange={(show)=>{bulbShow(record.pocId-1, show)}} />
+                        <Switch size="small" onChange={(show)=>{bulbShow(record.id-1, show)}} />
                         </Form.Item>
 
                         <Form.Item label="Negative volume color">
-                        <ColorPicker color={bulbDefaultColor} enableAlpha={false} onClose={(c)=>{bulbColor(record.pocId-1, c.color)}} placement="topRight" />
+                        <ColorPicker color={bulbDefaultColor} enableAlpha={false} onClose={(c)=>{bulbColor(record.id-1, c.color)}} placement="topRight" />
                         </Form.Item>
 
                         <Form.Item label="Representation style">
-                        <Select defaultValue="cartoon" onChange={(stl)=>{resStyle(record.residues,stl)}}>
+                        <Select defaultValue="cartoon" onChange={(stl)=>{resStyle(record.atoms,stl)}}>
                             <Select.Option value="cartoon">Cartoon</Select.Option>
                             <Select.Option value="sphere">Sphere</Select.Option>
                             <Select.Option value="stick">Stick</Select.Option>
@@ -154,20 +74,15 @@ class MeasurePanel extends Component {
                     <Collapse.Panel header="Pocket Info" className="pocket-and-mouth">
                         {pocketResidueTableRender(record)}
                     </Collapse.Panel>
-                    <Collapse.Panel header="Mouth Info" className="pocket-and-mouth" disabled={record['mouths'].length===0}>
-                        {mouthInfoTableRender(record)}
-                    </Collapse.Panel>
                 </Collapse>
             );
         }
 
+
         const columns = [
-            { title: 'Pocket ID', dataIndex: 'pocId', key: 'pocId', align:'center'},
-            { title: <span>SASA (&#8491;<sup>2</sup>)</span>, dataIndex: 'sasa', key: 'sasa' , align:'center'},
-            { title: <span>SAV (&#8491;<sup>3</sup>)</span>, dataIndex: 'sav', key: 'sav' , align:'center'},
-            { title: <span>SESA (&#8491;<sup>2</sup>)</span>, dataIndex: 'sesa', key: 'sesa' , align:'center'},
-            { title: <span>SEV (&#8491;<sup>3</sup>)</span>, dataIndex: 'sev', key: 'sev' , align:'center'},
-            { title: 'Mouth Num', dataIndex: 'mouthNum', key: 'mouthNum' , align:'center'},
+            { title: 'Pocket ID', dataIndex: 'id', key: 'id', align:'center'},
+            { title: <span>Area(SA) (&#8491;<sup>2</sup>)</span>, dataIndex: 'area', key: 'area' , align:'center'},
+            { title: <span>Volume(SA) (&#8491;<sup>3</sup>)</span>, dataIndex: 'vol', key: 'vol' , align:'center'},
         ];
 
         const {measureInfo} = this.props;
@@ -195,9 +110,6 @@ class MeasurePanel extends Component {
                 columns={columns}
                 expandedRowRender={pocketAndMouth}
                 dataSource={measureInfo.value}
-                //pagination={{ pageSize: 20 }}
-                //scroll={{ y: 280 }}
-                // key={record.pocId}
             />)
         }
 

@@ -6,7 +6,7 @@ export const INFO_URL = RootPath+'infos/info.json';
   // "homepage": "http://192.168.3.4/castpdev",
 //   const localIpAddress = 'http://10.8.169.96';
 const pdbBaseUrl = (pdb) =>{
-    const localIpAddress = 'http://10.8.169.96';
+    const localIpAddress = 'http://192.168.3.4';
 
     if (isPdbId(pdb)) {
         // console.log( isPdbId);
