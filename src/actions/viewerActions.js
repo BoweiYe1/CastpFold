@@ -29,10 +29,10 @@ function initializeBulbs(pdbid){
 export function bulbShow(pocId, show){
     initializeBulbs(store.getState().repository.general.value.name.toLowerCase())
     let state = store.getState();
-    console.log(state)
+    // console.log(state)
     let {viewer,bulb} = state.viewer;
-    console.log(bulb);
-    console.log(bulb[pocId]);
+    // console.log(bulb);
+    // console.log(bulb[pocId]);
 
     if(show){
         if(bulb[pocId].intersectionShape.sphere.length===0){
@@ -53,7 +53,7 @@ export function bulbShow(pocId, show){
 export function bulbColor(pocId, color){
     initializeBulbs(store.getState().repository.general.value.name.toLowerCase())
     let state = store.getState();
-    console.log(state)
+    // console.log(state)
     let {viewer,bulb} = state.viewer;
     bulb[pocId].updateStyle({color:color})
     viewer.render();

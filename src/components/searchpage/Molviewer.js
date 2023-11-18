@@ -23,13 +23,27 @@ class MolViewer extends Component {
     //     this.renderViewer();
     // }
 
+    // componentDidMount = () => {
+    //     this.createViewer();
+    
+    //     this.setState({
+    //         loading: false,
+    //         height: document.getElementById('viewer-box').clientHeight/2,
+    //         width: document.getElementById('viewer-box').clientWidth/2,
+    //         searchid: this.props.searchid,
+    //     }, () => {
+    //         this.renderViewer();
+    //     });
+    // }
     componentDidMount = () => {
         this.createViewer();
-    
+        const viewerBox = document.getElementById('viewer-box');
         this.setState({
             loading: false,
-            height: document.getElementById('viewer-box').clientHeight/2,
-            width: document.getElementById('viewer-box').clientWidth/2,
+            originalHeight: viewerBox.clientHeight,
+            originalWidth: viewerBox.clientWidth,
+            affixedHeight: viewerBox.clientHeight , // or any other size you want when affixed
+            affixedWidth: viewerBox.clientWidth ,   // or any other size you want when affixed
             searchid: this.props.searchid,
         }, () => {
             this.renderViewer();
@@ -43,18 +57,33 @@ class MolViewer extends Component {
         }
     }
 
-    changeAffixStatus = () => {
+    // changeAffixStatus = () => {
+    //     let viewer = this.viewer;
+    //     this.setState({ affixed: !(this.state.affixed), searchid:this.props.searchid });
+    //     if(viewer){ // TODO && have data
+    //         if (!this.state.affixed) {
+    //             viewer.setHeight(this.state.height);
+    //             viewer.setWidth(this.state.width);
+    //         }
+    //         else {
+    //             viewer.setHeight(this.state.height);
+    //             viewer.setWidth(this.state.width);
+    //         }
+    //     }
+    // }
+    changeAffixStatus = (affixed) => {
         let viewer = this.viewer;
-        this.setState({ affixed: !(this.state.affixed), searchid:this.props.searchid });
-        if(viewer){ // TODO && have data
-            if (!this.state.affixed) {
-                viewer.setHeight(this.state.height);
-                viewer.setWidth(this.state.width);
+        const { originalHeight, originalWidth, affixedHeight, affixedWidth } = this.state;
+
+        if (viewer) {
+            if (affixed) {
+                viewer.setHeight(affixedHeight);
+                viewer.setWidth(affixedWidth);
+            } else {
+                viewer.setHeight(originalHeight);
+                viewer.setWidth(originalWidth);
             }
-            else {
-                viewer.setHeight(this.state.height);
-                viewer.setWidth(this.state.width);
-            }
+            viewer.render();
         }
     }
 
