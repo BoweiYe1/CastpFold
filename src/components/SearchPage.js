@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { Redirect } from 'react-router-dom';
-import { fetchPdbGeneral, fetchPocMeasure, fetchPdbAssembly, fetchSeqInfo, fetchFeatInfo, fetchBulbData, fetchPocSimi} from  '../actions/httpActions'
+import { fetchPdbGeneral, fetchPocMeasure, fetchAFmap, fetchSeqInfo, fetchFeatInfo, fetchBulbData, fetchPocSimi} from  '../actions/httpActions'
 import ResultContent from './searchpage/ResultContent';
 import './searchpage.css'
 import { RootPath } from '../Settings';
@@ -13,6 +13,9 @@ const randomPDB = ()=>{
 
 class SearchPage extends Component {
     fetchResultData = ()=>{
+        if (this.props.searchid.length === 6 || this.props.searchid.length === 10) {
+            fetchAFmap(this.props.searchid);
+        }
         fetchPdbGeneral(this.props.searchid);
         // fetchPdbAssembly(this.props.searchid);
         fetchPocMeasure(this.props.searchid);
@@ -20,6 +23,7 @@ class SearchPage extends Component {
         fetchFeatInfo(this.props.searchid);
         fetchBulbData(this.props.searchid);
         fetchPocSimi(this.props.searchid);
+        
     }
     componentDidMount(){
         if(this.props.searchid!==''){

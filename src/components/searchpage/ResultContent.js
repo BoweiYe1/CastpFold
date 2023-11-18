@@ -25,17 +25,18 @@ class ResultContent extends Component{
         return (
             <div>
                 <Row type='flex' justify='space-around'>
-                    <Col span={7}>
+                    <Col span={23}>
                         <GeneralInfo ref={this.generalref} />
                     </Col>
-                    <Col span={16}>
-                        <MolViewer searchid={this.props.searchid} />
-                    </Col>
+                    
                 </Row>
 
                 <Row type='flex' justify='space-around'>
-                    <Col span={23}>
+                    <Col span={14}>
                         <MeasurePanel ref={this.measureref} /> 
+                    </Col>
+                    <Col span={8}>
+                        <MolViewer searchid={this.props.searchid} />
                     </Col>
                 </Row>
 

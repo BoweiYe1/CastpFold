@@ -4,63 +4,141 @@ import { Modal, Alert, Button } from 'antd'
 import { doSearch } from '../../containers/doSearch';
 
 class ResultNotFound extends Component{// FIXME change to modal.error
+    // componentDidMount() {
+    //     const { searchid, afmap, dispatch } = this.props;
+    //     if ((searchid.length === 6 || searchid.length === 10) && !afmap) {
+    //         fetchAFmap(searchid);
+    //     }
+    // }
     handleOk=()=>{
         doSearch('');
     }
+    handleAF=(AFpdb)=>{
+        doSearch(AFpdb);
+    }
     render = ()=>{
-        const isJob=(searchid)=>{
-            return searchid.length===15;
+        const { searchid, afmap } = this.props;
+        const isJob = searchid.length === 15;
+        const isAFId = searchid.length === 6 || searchid.length === 10;
+        let representativeId = searchid;
+       
+        if (isAFId && afmap && afmap.value) {
+            representativeId = afmap.value[searchid];
+            console.log(afmap.value[searchid]);
         }
-
-        const isAFId=(searchid)=>{
-            return searchid.length===10 | searchid.length===6;
+        let messageContent;
+        if (isAFId && afmap && afmap.value && representativeId !== searchid && afmap.value[searchid]) {
+            // New content for searchid length 6 or 10
+            messageContent = (
+                <p>
+                    <strong>Representative PDB Found!</strong>
+                    <br /><br />
+                    Your AF2 ID "{searchid}" has a representative AF2 PDB: <strong>{representativeId}</strong>.
+                    <br /><br />
+                    <Button onClick={() => this.handleAF(representativeId)}>Search <strong> {representativeId}</strong> </Button>
+                </p>
+            );
+        } else if(isAFId && afmap && afmap.value && representativeId === searchid && afmap.value[searchid]){
+            // New content for searchid length 6 or 10
+            messageContent = (
+                <p>
+                    <strong>Result not found!</strong>
+                    <br /><br />
+                    No result can be found for the AF2 id
+                    <strong>{' ' + searchid}</strong>.
+                    <br />
+                    Please make sure the ID is correct
+                    <br /><br />
+                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    <br /><br />
+                    <span style={{ float: 'right' }}>
+                        <Button onClick={this.handleOk}>Take me out of here!</Button>
+                    </span>
+                    <br /><br />
+                </p>
+            );
+        } else if(isAFId && !afmap){
+            messageContent = (
+                <p>
+                    <strong>Result not found!</strong>
+                    <br /><br />
+                    No result can be found for the AF2-like id, 
+                    <strong>{' ' + searchid}</strong>.
+                    <br />
+                    <br />
+                    We do not compute pocket for sequence labeled as <strong>"fragment"</strong> in Uniprot. 
+                    <br />
+                    <br />
+                    Please make sure the AF2 ID is correct and labeled <strong>"Full-Length"</strong>.
+                    <br /><br />
+                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    <br /><br />
+                    <span style={{ float: 'right' }}>
+                        <Button onClick={this.handleOk}>Take me out of here!</Button>
+                    </span>
+                    <br /><br />
+                </p>
+            );
+        } else if(isAFId && afmap && !representativeId){
+            messageContent = (
+                <p>
+                    <strong>Result not found!</strong>
+                    <br /><br />
+                    No result can be found for the AF2-like ID, 
+                    <strong>{' ' + searchid}</strong>.
+                    <br />
+                    <br />
+                    We do not compute pocket for sequence labeled as <strong>"fragment"</strong> in Uniprot. 
+                    <br />
+                    <br />
+                    Please make sure the AF2 ID is correct and labeled <strong>"Full-Length"</strong>.
+                    <br /><br />
+                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    <br /><br />
+                    <span style={{ float: 'right' }}>
+                        <Button onClick={this.handleOk}>Take me out of here!</Button>
+                    </span>
+                    <br /><br />
+                </p>
+            );
         }
-        // const msg = (<p> <strong>Result not found!</strong> <br/><br/>
-        //     No result can be found for the 
-        //     {isJob(this.props.searchid)? ' job id':' pdb id'}
-        //     <strong> {' '+this.props.searchid} </strong>. <br/>
-        //     Please make sure the id is correct{isJob(this.props.searchid)?
-        //         ', and wait for the job to finish.':'.'}
-        //     <br/><br/>
-        //     Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.            
-        //     <br/><br/>
-        //     <span style={{float:'right'}}><Button onClick={this.handleOk}>
-        //         Take me out of here!</Button></span>
-        //     <br/><br/>
-        // </p>)
-        const messageContent = (
-            <p>
-              <strong>Result not found!</strong>
-              <br /><br />
-              No result can be found for the
-              {isJob(this.props.searchid) ? ' job id' : ' pdb id'}
-              <strong>{' ' + this.props.searchid}</strong>.
-              <br />
-              Please make sure the ID is correct
-              {isJob(this.props.searchid) ? ', and wait for the job to finish.' : '.'}
-              <br /><br />
-              Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
-              <br /><br />
-              <span style={{ float: 'right' }}>
-                <Button onClick={this.handleOk}>Take me out of here!</Button>
-              </span>
-              <br /><br />
-            </p>
-          );
+        else{
+            // Original content for other cases
+            messageContent = (
+                <p>
+                    <strong>Result not found!</strong>
+                    <br /><br />
+                    No result can be found for the
+                    {isJob ? ' job id' : ' pdb id'}
+                    <strong>{' ' + searchid}</strong>.
+                    <br />
+                    Please make sure the ID is correct
+                    {isJob ? ', and wait for the job to finish.' : '.'}
+                    <br /><br />
+                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    <br /><br />
+                    <span style={{ float: 'right' }}>
+                        <Button onClick={this.handleOk}>Take me out of here!</Button>
+                    </span>
+                    <br /><br />
+                </p>
+            );
+        }
           
-        const msg = messageContent;
+        // const msg = messageContent;
           
-        console.log(this.props)
+        console.log('Repository State on Mount:', this.props.repository);
+        console.log('afmap:', this.props.afmap);
         return (
             <Modal visible={!this.props.generalInfo ||
                 this.props.generalInfo.rejected}
                 centered={true}
                 closable={false}
                 maskClosable={false}
-                bodyStyle={{ padding:0}}
+                bodyStyle={{ padding: 0 }}
                 footer={null}
             >
-                <Alert type='error' showIcon message= {msg} />
+                <Alert type='warning' showIcon message={messageContent} />
             </Modal>
         );
     }
@@ -69,5 +147,7 @@ class ResultNotFound extends Component{// FIXME change to modal.error
 const mapStateToProps = state => ({
     searchid: state.router.location.search.slice(1),
     generalInfo: state.repository.general,
+    repository: state.repository,
+    afmap: state.repository.afmap,
 });
 export default connect(mapStateToProps)(ResultNotFound);

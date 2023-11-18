@@ -32,12 +32,24 @@ const pdbBaseUrl = (pdb) =>{
     // }
 }
 
+
+
 const pdbTmpUrl = (pdb) =>{
     return pdbBaseUrl(pdb)+'tmp/';
 }
 
 const pdbProcessedUrl = (pdb) =>{
     return pdbBaseUrl(pdb)+'processed/';
+}
+
+export function AFmapurl(pdb)  {
+    const length = pdb.length; 
+    const localIpAddress = 'http://192.168.3.4';
+    if (length === 6){
+        return localIpAddress + '/searchmapping/sixmer/' + pdb.substring(3,6) + '/' + pdb.substring(3,6) + '.pathmap.json';
+    } else if (length === 10){
+        return localIpAddress + '/searchmapping/tenmer/' + pdb.substring(3,6) + '/' + pdb.substring(3,8) + '/' + pdb.substring(3,8) + '.pathmap.json';
+    }
 }
 
 export function pdbGeneralInfoUrl(pdb) {

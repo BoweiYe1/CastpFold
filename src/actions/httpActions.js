@@ -4,6 +4,7 @@ import {
     pdbPdbFileUrl,
     // pdbAssemblyUrl,
     pdbPocSimiUrl,
+    AFmapurl,
     pdbPocMeasureUrl,
     pdbSeqInfoUrl,
     pdbFeatInfoUrl,
@@ -40,6 +41,16 @@ function getPocMeasure(pdb){
             url: pdbPocMeasureUrl(pdb),
         },
     }]).measureGet();
+}
+
+function getAFmap(pdb){
+    return buildActionsFromMappings([{
+        resource: 'afmap',
+        method: 'get',
+        request: {
+            url: AFmapurl(pdb),
+        },
+    }]).afmapGet();
 }
 
 
@@ -103,6 +114,16 @@ function getSimiPocBulbData(pdb){
         },
     }]).simipocbulbGet();
 }
+
+// function getAFmapping(pdb){
+//     return buildActionsFromMappings([{
+//         resource: 'AFmap',
+//         method: 'get',
+//         request: {
+//             url: pdbBulbUrl(pdb),
+//         },
+//     }]).simipocbulbGet();
+// }
 //main entry
 export function fetchPdbGeneral(pdb) {
     store.dispatch(getPdbGeneral(pdb));
@@ -112,6 +133,10 @@ export function fetchPdbGeneral(pdb) {
 // }
 export function fetchPocMeasure(pdb){
     store.dispatch(getPocMeasure(pdb));
+}
+
+export function fetchAFmap(pdb){
+    store.dispatch(getAFmap(pdb));
 }
 
 export function fetchSeqInfo(pdb){

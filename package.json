@@ -1,5 +1,5 @@
 {
-  "homepage": "http://10.8.169.96/castpdev",
+  "homepage": "http://192.168.3.4/castpdev",
   "name": "futurecast-front",
   "version": "0.1.0",
   "private": true,
