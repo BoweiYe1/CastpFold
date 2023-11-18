@@ -64,42 +64,52 @@ class PocketSimilarity extends Component {
                 render: (nestedText, nestedRecord) => {
                     const viewerKey = `${searchid}_${record.pocid}_${nestedRecord.pdbid}`;
                     return (
-                        <div key={viewerKey}>
+                        <div 
+                            key={viewerKey} 
+                            style={{ 
+                                display: 'flex', 
+                                flexDirection: 'column', 
+                                alignItems: 'center', // This centers the content horizontally
+                                justifyContent: 'center', // This centers the content vertically if there is a height set
+                                width: '100%' // Take the full width of the container to center content within it
+                            }}
+                        >
                             <PocketViewer
                                 searchId={searchid}
                                 pocId={record.pocid}
                                 similarMemberPdbId={nestedRecord.pdbid}
                             />
                             <button
-                                 type="primary"
+                                className="ant-btn ant-btn-primary"
                                 onClick={(show) => {
-                                     pocBulbShow(searchid, record.pocid, nestedRecord.pocid - 1, nestedRecord.pdbid, show);
-                                    }}
-                                 className="load-button"
-                                    >
-                                     Show Pocket Negative Volume
+                                    pocBulbShow(searchid, record.pocid, nestedRecord.pocid - 1, nestedRecord.pdbid, show);
+                                }}
+                                style={{ 
+                                    marginTop: '10px', // Add spacing between the viewer and the button
+                                }}
+                            >
+                                Show Pocket Negative Volume
                             </button>
                         </div>
                     );
                 },
+                
             },
         ];
         const paginationConfig = displayAll ? false : { pageSize: pageSize }; // Disable pagination if showing all
 
-        // The rowKey function ensures each row has a unique key based on the pdbid and pocid
-        // const rowKey = (nestedRecord) => `${nestedRecord.pdbid}_${nestedRecord.pocid}`;
-
+      
         return (
             
-            // <Table
-            //     columns={columns}
-            //     dataSource={dataSourceToShow}
-            //     rowKey={rowKey}
-            //     pagination={paginationConfig} // Typically nested tables do not need pagination
-                
-            // />
+
          
-            <div>
+            <div
+            style={{
+                maxWidth: '70%', // Set a maximum width for the expanded content
+                overflowX: 'auto' // Add horizontal scroll if content exceeds the container width
+            }}
+        >
+            
             <Form layout='inline'>
                 <Form.Item label="Show negative volume">
                     <Switch size="small" onChange={(show) => { bulbShow(record.pocid-1, show) }} />
@@ -109,7 +119,7 @@ class PocketSimilarity extends Component {
                     <ColorPicker color={bulbDefaultColor} enableAlpha={false} onClose={(c) => { bulbColor(record.pocid-1, c.color) }} placement="topRight" />
                 </Form.Item>
 
-                <Form.Item label="Representation style">
+                {/* <Form.Item label="Representation style">
                     <Select defaultValue="cartoon" onChange={(stl) => { resStyle(record.residues, stl) }}>
                         <Select.Option value="cartoon">Cartoon</Select.Option>
                         <Select.Option value="sphere">Sphere</Select.Option>
@@ -117,7 +127,7 @@ class PocketSimilarity extends Component {
                         <Select.Option value="line">Line</Select.Option>
                         <Select.Option value="surface">Surface</Select.Option>
                     </Select>
-                </Form.Item>
+                </Form.Item> */}
             </Form>
             <Table
                 columns={columns}

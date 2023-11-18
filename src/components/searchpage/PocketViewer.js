@@ -138,37 +138,34 @@ class PocketViewer extends Component {
 
   
     render = () => {
-            const viewerId = this.getViewerId();
-            const { similarMemberPdbId } = this.props;
-            console.log(this);
-            console.log("similarMemberPdbId:", similarMemberPdbId);
-            // const simipdb = similarMemberPdbId.pdbid;
-            // const pocid = similarMemberPdbId.pocid.pocid;
-            return (
-                <div align="text-align: left">
-                    <div key={viewerId}>
-                        <Card
-                            id={viewerId}
-                            className={this.state.affixed ? 'testaffixed' : 'test'}
-                            style={{ width: '700px', height: '600px' }}
-                        />
-                        <div className="button-container">
-                        <Button type="primary" onClick={this.handleLoadViewer} className="load-button">
+        const viewerId = this.getViewerId();
+        const { similarMemberPdbId } = this.props;
+    
+        return (
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> {/* This will center the content vertically and horizontally */}
+                <div key={viewerId}>
+                    <Card
+                        id={viewerId}
+                        className={this.state.affixed ? 'testaffixed' : 'test'}
+                        style={{ width: '700px', height: '600px' }}
+                    />
+                    <div style={{ marginTop: '10px' }}> {/* This div will contain your button and switch */}
+                        <Button type="primary" onClick={this.handleLoadViewer} style={{ marginRight: '10px' }}>
                             Load or Refresh Pdb File
                         </Button>
-                            <Switch
-                                size="small"
-                                defaultChecked
-                                checkedChildren="Spectrum"
-                                unCheckedChildren="Plain"
-                                onChange={(spectrum) => { protColor(spectrum, this.state.simipocviewer[viewerId]); }}
-                                style={{ marginLeft: '10px', /* Add other styles as needed */ }}
-                            />
-                        </div>
+                        <Switch
+                            size="small"
+                            defaultChecked
+                            checkedChildren="Spectrum"
+                            unCheckedChildren="Plain"
+                            onChange={(spectrum) => { protColor(spectrum, this.state.simipocviewer[viewerId]); }}
+                        />
                     </div>
                 </div>
-            );
-        };
+            </div>
+        );
+    };
+    
     
 }
 
