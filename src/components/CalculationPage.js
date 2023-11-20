@@ -31,7 +31,7 @@ class CalculationForm extends Component {
                 this.popErrorMessage(<div>Something is wrong!<br/>{err}</div>)
             }
         });
-        
+        console.log(valuesToSubmit);
         if (valuesToSubmit){
             this.setState({ uploading: true, });
             var data = new FormData();
@@ -44,18 +44,21 @@ class CalculationForm extends Component {
             data.append('file', this.state.fileList[0]);
             data.append('probe', valuesToSubmit.probe);
             data.append('email', valuesToSubmit.email||'N/A');
-            data.append('hetatm', valuesToSubmit.hetatm);
-            data.append('mostfreq', valuesToSubmit.mostfreq);
+            // data.append('hetatm', valuesToSubmit.hetatm);
+            // data.append('mostfreq', valuesToSubmit.mostfreq);
+
+            console.log(this.state);
 
             let tmpthis = this;
             window.jQuery.ajax({
                 type: "POST",
                 //url: "http://sts.bioe.uic.edu/castp/dev/submit_calc.php",
-                url: "submit_calc.php",
+                url: "http://192.168.3.4/submit_calc.php",
                 data: data,
                 processData: false,
                 contentType: false,
                 success: function (serverReturn) {
+                    console.log(serverReturn)
                     serverReturn = JSON.parse(serverReturn);
                     console.log(serverReturn)
                     if (serverReturn.success) {
