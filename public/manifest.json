@@ -1,6 +1,6 @@
 {
-  "short_name": "CASTp 3.0",
-  "name": "CASTp 3.0: Computed Atlas of Surface Topography of proteins",
+  "short_name": "CASTpFold",
+  "name": "CASTpFold: Computed Atlas of Surface Topography of protein Folding universe",
   "icons": [
     {
       "src": "favicon.ico",

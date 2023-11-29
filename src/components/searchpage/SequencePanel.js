@@ -28,6 +28,7 @@ class SequencePanel extends Component {
             case "P": ssclass += "seqP "; break;
             default: break;
         }
+        // console.log("aadata",aadata);
         if(false){ ssclass+='displayed '; }//FIXME to add this part
         if(aadata.anno.length>0){ ssclass+='annotated '}
         const tip = <div className='tip-scroll'>
@@ -50,8 +51,6 @@ class SequencePanel extends Component {
                 chdata.data.forEach(aadata => {
                     achain.push( this.aaToTag(aadata) );
                 });
-                console.log(value)
-                console.log(achain);
                 allchains.push(
                     <Collapse.Panel header={`Chain ${chdata.chain}`} key={i}>
                     {achain}

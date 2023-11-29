@@ -1,8 +1,8 @@
 <link type="text/css" rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/antd@3.10.7/dist/antd.min.css" />
 
-<h2>How does CASTp work?</h2>
+<h2>How does CASTpFold work?</h2>
 
-<p>CASTp is based on theorectical and algorithmic results of Computational Geometry. It has many advantages:
+<p>CASTpFold is based on theorectical and algorithmic results of Computational Geometry. It has many advantages:
 1) pockets and cavities are identified analytically, 2) the boundary between the bulk solvent and the pocket
 is defined precisely, 3) all calculated parameters are rotationally invariant, and do not involve discretization
 and they make no use of dot surface or grid points.</p>
@@ -15,7 +15,7 @@ and they make no use of dot surface or grid points.</p>
 <br/>
 
 <h3 id='comput_geom'> Computational Geometry: Voronoi Diagram, Delaunay Triangulation, and Alpha Shape</h3>
-<p>The basic ingredients of Computational Geometry applied in CASTp are: Delaunay triangulation, alpha shape,
+<p>The basic ingredients of Computational Geometry applied in CASTpFold are: Delaunay triangulation, alpha shape,
 and discrete flow (Edelsbrunner &amp; Mucke 1994; Edelsbrunner 1995; Facello 1995; Edelsbrunner &amp; Shah
 1996; Edelsbrunner et al, 1998). Consider a highly simplified hypothetical model, a two dimensional molecule
 formed by atom disks, all of the same radius (Figure 1a). If nails are figuratively hammered into the plane
@@ -31,7 +31,7 @@ construct, the
 <i>Voronoi diagram</i> (the pattern formed by all dashed lines in Figure 1a).
 </p> 
 
-<p><img src="figs/background_alphashape.gif"></p>
+<p><img src="figs/background_alphashape.gif" style="display: block; margin-left: auto; margin-right: auto;"></p>
 
 <p>The Voronoi diagram is formed by the collection of Voronoi cells. For the hypothetical molecule in Figure
 1a, Voronoi cells include the convex polygons bounded all around by dashed lines, as well as the polygons
@@ -79,7 +79,9 @@ the two radii of the atoms connected by the edge. The type of surface depression
 is illustrated in Figure 2b; it is one formed by five obtuse triangles that flow sequentially from 1 to 5
 to the outside, or infinity.</p>
 
-<p><img src="figs/background_flow.gif"></p>
+<p>
+    <img src="figs/background_flow.gif" style="display: block; margin-left: auto; margin-right: auto;">
+</p>
 
 <p>All the features of the 2-D description have more complex 3-D counterparts.&nbsp; The convex hull in three
     dimensions is a convex polytope instead of a polygon, and its Delaunay triangulation is a tessellation

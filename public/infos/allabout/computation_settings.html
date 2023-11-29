@@ -9,13 +9,13 @@
 <h2>Internal computational parameters</h2>
 
 <p>
-As the computation of the CASTp server is based on  theorectical and algorithmic results of Computational Geometry,
+As the computation of the CASTpFold server is based on  theorectical and algorithmic results of Computational Geometry,
 no parameters are needed a priori, except the Van der Waals radii of atoms or atomic groups.
-Here, we list the radii used by CASTp server.
+Here, we list the radii used by CASTpFold server.
 </p>
 
 <p>
-Following the nomenclature in Ref[ddd], atoms are labeled in the form of <i>"XnHm”</i>,
+Following the nomenclature in Ref[1], atoms are labeled in the form of <i>"XnHm”</i>,
 where <i>X</i> indicates the chemical symbol; <i>n</i>, the number of
 bonds, which, in most cases, is equivalent to say
 <i>sp</i>, <i>sp<sup>2</sup></i>, or <i>sp<sup>3</sup></i> orbitals;
@@ -26,9 +26,10 @@ otherwise, hydrogen atoms are ignored in computation.
 <ul>
     <li> Van der Waals radii of atoms
         <ul>
-            <li><a href="#prot">Commonly in proteins, RNAs, and DNAs</a></li>
-            <li><a href="#rna">Specifically in RNAs</a></li>
-            <li><a href="#dna">Specifically in DNAs</a></li>
+            <li><a href="#prot">Commonly in proteins</a></li>
+            <!-- , RNAs, and DNAs -->
+            <!-- <li><a href="#rna">Specifically in RNAs</a></li>
+            <li><a href="#dna">Specifically in DNAs</a></li> -->
             <li><a href="#others">Otherwise</a></li>
         </ul>
     </li>
@@ -36,7 +37,8 @@ otherwise, hydrogen atoms are ignored in computation.
 <br/>
 
 
-<h3 id='prot'>Van der Waals radii of atoms in proteins, RNAs, and DNAs</h3>
+<h3 id='prot'>Van der Waals radii of atoms in proteins</h3>
+<!-- , RNAs, and DNAs -->
 <table>
     <thead>
         <tr><th>Atom type</th><th>Radius (Å)</th><th>Note</th></tr>
@@ -58,7 +60,7 @@ otherwise, hydrogen atoms are ignored in computation.
     </tbody>
 </table>
 <br/>
-
+<!-- 
 <h3 id='rna'>Van der Waals radii of atoms specifically in RNAs</h3>
 <table>
         <thead>
@@ -86,7 +88,7 @@ otherwise, hydrogen atoms are ignored in computation.
         <tr><td>P4H0</td> <td>2.04</td> <td>[3]</td></tr>
     </tbody>
 </table>
-<br/>
+<br/> -->
 
 <h3 id='others'>Van der Waals radii of any other atoms not found in the previous tables</h3>
 <p><small>These values are barely used for a normal PDB structure.</small></p>
@@ -109,12 +111,12 @@ otherwise, hydrogen atoms are ignored in computation.
     <li>Tsai J, Taylor R, Chothia C, Gerstein M.
         <strong>The packing density in proteins: standard radii and volumes</strong>. <i>J Mol Biol.</i> 1999 Jul 2;290(1):253-66.
     </li>
-    <li>Voss NR, Gerstein M.
+    <!-- <li>Voss NR, Gerstein M.
         <strong>Calculation of standard atomic volumes for RNA and comparison with proteins: RNA is packed more tightly</strong>.
         <i>J Mol Biol.</i> 2005 Feb 18;346(2):477-92.
     </li>
     <li>Nadassy K, Tomás-Oliveira I, Alberts I, Janin J, Wodak SJ.
         <strong>Standard atomic volumes in double-stranded DNA and packing in protein-DNA interfaces</strong>.
         <i>Nucleic Acids Res.</i> 2001 Aug 15;29(16):3362-76.        
-    </li>
+    </li> -->
 </ol>

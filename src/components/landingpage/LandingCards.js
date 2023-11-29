@@ -30,7 +30,7 @@ class LandingCard extends Component {
                             return (
                                 <div> {castpInfo.value[source].slice(0, 3).map((rec) =>
                                     <div key={rec.id}>
-                                        <Link to={RootPath+`${source}?${rec.route}`}> >> {rec.title}</Link>
+                                        <Link to={RootPath+`${source}?${rec.route}`}>{' >> '}{rec.title}</Link>
                                         {" "}
                                         <p className='subtitle'>{rec.subtitle}</p>
                                     </div>

@@ -37,6 +37,7 @@ function initializePocBulbs(searchId, pocId , pdbid) {
     if (state.viewer.simipocbulb && pdbid === state.viewer.simipocpdb) {
         return;
     }
+    console.log(state.repository.simipocbulb.value);
     store.dispatch(setupSimiBulb(state.repository.simipocbulb.value, searchId, pocId , pdbid));
 }
 
@@ -50,17 +51,21 @@ export function pocBulbShow(searchId, pocId , simipocID, pdbid, show) {
 
     if (show && similarPocketBulbData && similarPocketBulbData[uniqueKey] && similarPocketBulbData[uniqueKey][simipocID]) {
         const bulbData = similarPocketBulbData[uniqueKey][simipocID];
+        console.log(bulbData);
+        
         if (bulbData.intersectionShape.sphere.length === 0) {
             state.viewer.similarPocbetBulb[uniqueKey][simipocID].forEach(element => {
                 bulbData.addSphere({center:element.c, radius:element.r});
                 bulbData.updateStyle({hidden:!show});
             });
+            console.log(state.viewer.similarPocbetBulb[uniqueKey][simipocID]);
             simipocviewer[uniqueKey].render();
         }
 
     }
 
 }
+
 
 export function protColor(colorful, viewer) {
     if (viewer) {
@@ -71,5 +76,24 @@ export function protColor(colorful, viewer) {
         }
 
         viewer.render();
+    }
+}
+
+
+
+export function temppocBulbShow(searchId, pocId, simipocID, pdbid, show, viewerInstance, similarPocketBulbData) {
+    if (show && similarPocketBulbData && similarPocketBulbData[simipocID]) {
+        const bulbData = similarPocketBulbData[simipocID];
+        // console.log('Bulb Data:', bulbData);
+
+        bulbData.forEach((element, index) => {
+            // console.log(`Processing element ${index}:`, element);
+            viewerInstance.addSphere({ center: element.c, radius: element.r , color: "#e41a1c", opacity: 0.8  });
+            // Consider updating the style per sphere or outside the loop
+        });
+
+        // viewerInstance.updateStyle({ hidden: !show });
+        viewerInstance.render();
+        console.log('Viewer after rendering:', viewerInstance);
     }
 }

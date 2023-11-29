@@ -19,7 +19,7 @@ class SearchForm extends Component {
             doSearch(v);
         }
         else{
-            message.warning("Please specify a valid PDB or job id ");
+            message.warning("Please specify a valid PDB, AF2 or job id ");
         }
     }
 
@@ -31,7 +31,7 @@ class SearchForm extends Component {
                 rules:[]
             })(<Input.Search size={this.state.size}
                 autoFocus={this.props.autoFocus}
-                placeholder="input PDB, AF, or job id"
+                placeholder="input PDB, AF2, or job id"
                 onSearch={this.handleSearch}
             />)
         )

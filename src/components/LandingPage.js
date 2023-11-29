@@ -16,51 +16,95 @@ class LandingPage  extends Component{
         }
     }
 
-    render = ()=>{
-        /*
-        const {castpInfoFetch} = this.props;
-        if (castpInfoFetch.rejected) {
-            return <div>Oops... Could not fetch!</div>
-        }
-        if (castpInfoFetch.fulfilled) {
-            console.log(castpInfoFetch.value)
-        }
-        */
+    // render = ()=>{
+    //     /*
+    //     const {castpInfoFetch} = this.props;
+    //     if (castpInfoFetch.rejected) {
+    //         return <div>Oops... Could not fetch!</div>
+    //     }
+    //     if (castpInfoFetch.fulfilled) {
+    //         console.log(castpInfoFetch.value)
+    //     }
+    //     */
+    //     return (
+    //         <div>
+    //             <Row style={{ 'minHeight': '20px' }} /> {/* spacing */}
+    //             <Row type='flex' justify='space-around'>
+    //                 {/* landing page consists three landing cards:
+    //                     News, Getting started, and About
+    //                 */}
+    //                 <Col>
+    //                     <LandingCard title={<div> className="landing-card-title" <Icon type="notification" /> News </div>} source='news' />
+    //                 </Col>
+        
+    //                 <Col>
+    //                     <LandingCard title={<div><Icon type='play-circle-o' /> Getting started</div>}>
+    //                         <Row type='flex' justify='center'>
+    //                             <SearchBox size='large' autoFocus={true} />
+    //                         </Row>
+    //                         <br />
+    //                         <Row type='flex' justify='center'>
+    //                             <Link to={RootPath+'compute'}><Icon type='upload' /> Compute my protein</Link>
+    //                         </Row>
+    //                         <br />
+    //                         <Row type='flex' justify='center'>
+    //                             <Link to={RootPath+'search'}><Icon type='gift' /> Show random example</Link>
+    //                         </Row>
+    //                     </LandingCard>
+    //                 </Col>
+        
+    //                 <Col>
+    //                     <LandingCard title={<div><Icon type="exclamation-circle-o" /> About</div>} source='about' />
+    //                 </Col>
+        
+    //             </Row>
+    //         </div>
+    //     );
+    // }
+    render = () => {
         return (
-            <div>
-                <Row style={{ 'minHeight': '20px' }} /> {/* spacing */}
-                <Row type='flex' justify='space-around'>
-                    {/* landing page consists three landing cards:
-                        News, Getting started, and About
-                    */}
-                    <Col>
-                        <LandingCard title={<div><Icon type="notification" /> News </div>} source='news' />
-                    </Col>
-        
-                    <Col>
-                        <LandingCard title={<div><Icon type='play-circle-o' /> Getting started</div>}>
-                            <Row type='flex' justify='center'>
-                                <SearchBox size='large' autoFocus={true} />
-                            </Row>
-                            <br />
-                            <Row type='flex' justify='center'>
-                                <Link to={RootPath+'compute'}><Icon type='upload' /> Compute my protein</Link>
-                            </Row>
-                            <br />
-                            <Row type='flex' justify='center'>
-                                <Link to={RootPath+'search'}><Icon type='gift' /> I'm feeling lucky!</Link>
-                            </Row>
-                        </LandingCard>
-                    </Col>
-        
-                    <Col>
-                        <LandingCard title={<div><Icon type="exclamation-circle-o" /> About</div>} source='about' />
-                    </Col>
-        
-                </Row>
-            </div>
+          <div>
+            <Row style={{ 'minHeight': '20px' }} /> {/* spacing */}
+            <Row type='flex' justify='space-around'>
+              <Col>
+                <LandingCard 
+                  title={<div className="landing-card-title"><Icon type="notification" /> News</div>} 
+                  source='news' 
+                  className="landing-card" 
+                />
+              </Col>
+      
+              <Col>
+                <LandingCard 
+                  title={<div className="landing-card-title"><Icon type='play-circle-o' /> Getting started</div>} 
+                  className="landing-card"
+                >
+                  <Row type='flex' justify='center'>
+                    <SearchBox size='large' autoFocus={true} />
+                  </Row>
+                  <br />
+                  <Row type='flex' justify='center'>
+                    <Link to={RootPath+'compute'}><Icon type='upload' /> Compute my protein</Link>
+                  </Row>
+                  <br />
+                  <Row type='flex' justify='center'>
+                    <Link to={RootPath+'search'}><Icon type='gift' /> Show random example</Link>
+                  </Row>
+                </LandingCard>
+              </Col>
+      
+              <Col>
+                <LandingCard 
+                  title={<div className="landing-card-title"><Icon type="exclamation-circle-o" /> About</div>} 
+                  source='about' 
+                  className="landing-card" 
+                />
+              </Col>
+      
+            </Row>
+          </div>
         );
-    }
+      }
 }
 
 LandingPage.propTypes = {

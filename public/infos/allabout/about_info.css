@@ -1,0 +1,13 @@
+.fixed-size-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;   /* Set the desired width */
+    height: 150px;  /* Set the desired height */
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

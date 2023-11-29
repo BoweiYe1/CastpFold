@@ -1,6 +1,6 @@
-const alphaNumericRegex = /^[a-z0-9]*$/;
+const alphaNumericRegex = /^[a-zA-Z0-9]*$/;
 const numericRegex = /^[0-9]*$/;
-const upperCaseAndNumericRegex = /^[A-Z0-9]*$/;
+const upperCaseAndNumericRegex = /^[a-zA-Z0-9]*$/;
 
 
 export function isPdbId(id){

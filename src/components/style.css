@@ -33,6 +33,23 @@
     z-index: 1000;
 }
 
+/* Style for the card titles */
+.landing-card-title {
+    font-size: 1.1em; /* Larger font size for the title */
+    margin-bottom: 0.5em; /* Space below the title */
+  }
+  
+  /* Style for the overall card size */
+  .landing-card {
+    padding: 50px; /* Increase padding inside the cards */
+    /* margin: 0 8px; Space between cards */
+  }
+  
+  /* Style for the icons in the card titles */
+  .landing-card-title .anticon {
+    font-size: 1em; /* Larger icon size */
+    vertical-align: middle; /* Align icon with text */
+  }
 
 
 

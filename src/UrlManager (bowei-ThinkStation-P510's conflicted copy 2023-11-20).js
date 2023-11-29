@@ -6,7 +6,7 @@ export const INFO_URL = RootPath+'infos/info.json';
   // "homepage": "http://192.168.3.4/castpdev",
 //   const localIpAddress = 'http://10.8.169.96';
 const pdbBaseUrl = (pdb) =>{
-    const localIpAddress = 'http://192.168.3.4/castpfold/';
+    const localIpAddress = 'http://10.8.169.96';
 
     if (isPdbId(pdb)) {
         // console.log( isPdbId);
@@ -78,7 +78,4 @@ export function pdbFeatInfoUrl(pdb){
 }
 export function pdbBulbUrl(pdb){
     return pdbTmpUrl(pdb)+pdb+'.bulb.json' 
-}
-export function pdbZipUrl(pdb){
-    return pdbProcessedUrl(pdb)+pdb+'.zip' 
 }

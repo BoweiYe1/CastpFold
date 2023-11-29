@@ -48,7 +48,7 @@ class MeasurePanel extends Component {
         }
 
         const pocketAndMouth = (record) => {
-            console.log(record)
+            // console.log(record)
             return (
                 <Collapse bordered={false}>  
                     <Collapse.Panel header={ <Form layout='inline'>

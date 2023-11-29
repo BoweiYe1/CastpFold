@@ -24,16 +24,16 @@ class ResultNotFound extends Component{// FIXME change to modal.error
        
         if (isAFId && afmap && afmap.value) {
             representativeId = afmap.value[searchid];
-            console.log(afmap.value[searchid]);
+            // console.log(afmap.value[searchid]);
         }
         let messageContent;
         if (isAFId && afmap && afmap.value && representativeId !== searchid && afmap.value[searchid]) {
             // New content for searchid length 6 or 10
             messageContent = (
                 <p>
-                    <strong>Representative PDB Found!</strong>
+                    <strong>Representative Structure Found!</strong>
                     <br /><br />
-                    Your AF2 ID "{searchid}" has a representative AF2 PDB: <strong>{representativeId}</strong>.
+                    The AF2 ID "{searchid}" has a representative: <strong>{representativeId}</strong>.
                     <br /><br />
                     <Button onClick={() => this.handleAF(representativeId)}>Search <strong> {representativeId}</strong> </Button>
                 </p>
@@ -44,12 +44,12 @@ class ResultNotFound extends Component{// FIXME change to modal.error
                 <p>
                     <strong>Result not found!</strong>
                     <br /><br />
-                    No result can be found for the AF2 id
+                    No result can be found for the AF2 ID
                     <strong>{' ' + searchid}</strong>.
                     <br />
                     Please make sure the ID is correct
                     <br /><br />
-                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    Please contact <a>{"castpfold.liang.lab@gmail.com"}</a> for further help.
                     <br /><br />
                     <span style={{ float: 'right' }}>
                         <Button onClick={this.handleOk}>Take me out of here!</Button>
@@ -66,12 +66,12 @@ class ResultNotFound extends Component{// FIXME change to modal.error
                     <strong>{' ' + searchid}</strong>.
                     <br />
                     <br />
-                    We do not compute pocket for sequence labeled as <strong>"fragment"</strong> in Uniprot. 
+                    We do not compute pocket for sequence labeled as <strong>"Fragment"</strong> in Uniprot. 
                     <br />
                     <br />
-                    Please make sure the AF2 ID is correct and labeled <strong>"Full-Length"</strong>.
+                    Please make sure the AF2 ID is correct and <strong>"Full-length"</strong>.
                     <br /><br />
-                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    Please contact <a>{"castpfold.liang.lab@gmail.com"}</a> for further help.
                     <br /><br />
                     <span style={{ float: 'right' }}>
                         <Button onClick={this.handleOk}>Take me out of here!</Button>
@@ -88,12 +88,12 @@ class ResultNotFound extends Component{// FIXME change to modal.error
                     <strong>{' ' + searchid}</strong>.
                     <br />
                     <br />
-                    We do not compute pocket for sequence labeled as <strong>"fragment"</strong> in Uniprot. 
+                    We do not compute pocket for sequence labeled as <strong>"Fragment"</strong> in Uniprot. 
                     <br />
                     <br />
-                    Please make sure the AF2 ID is correct and labeled <strong>"Full-Length"</strong>.
+                    Please make sure the AF2 ID is correct and <strong>"Full-length"</strong>.
                     <br /><br />
-                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    Please contact <a>{"castpfold.liang.lab@gmail.com"}</a> for further help.
                     <br /><br />
                     <span style={{ float: 'right' }}>
                         <Button onClick={this.handleOk}>Take me out of here!</Button>
@@ -115,7 +115,7 @@ class ResultNotFound extends Component{// FIXME change to modal.error
                     Please make sure the ID is correct
                     {isJob ? ', and wait for the job to finish.' : '.'}
                     <br /><br />
-                    Please contact <a>{"uic.lianglab{at}gmail.com"}</a> for further help.
+                    Please contact <a>{"castpfold.liang.lab@gmail.com"}</a> for further help.
                     <br /><br />
                     <span style={{ float: 'right' }}>
                         <Button onClick={this.handleOk}>Take me out of here!</Button>
@@ -127,8 +127,8 @@ class ResultNotFound extends Component{// FIXME change to modal.error
           
         // const msg = messageContent;
           
-        console.log('Repository State on Mount:', this.props.repository);
-        console.log('afmap:', this.props.afmap);
+        // console.log('Repository State on Mount:', this.props.repository);
+        // console.log('afmap:', this.props.afmap);
         return (
             <Modal visible={!this.props.generalInfo ||
                 this.props.generalInfo.rejected}

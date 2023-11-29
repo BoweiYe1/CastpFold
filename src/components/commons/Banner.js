@@ -50,10 +50,13 @@ const MyBreadCrumb = ({ pathname }) => {
 const Citation = ()=>{
     const msg = (
         <div>
-            Your citation is really imortant for us. Please cite this paper if you publish or present results using CASTp analysis:
+            Your citation is really imortant for us. Please cite this paper if you publish or present results using CASTpFold analysis:
+            <center><strong> <cite>CASTpFold: computed atlas of surface topography of protein folding universe.</cite> </strong></center>
             <strong>
-            <center>Tian et al., Nucleic Acids Res. 46(W1): W363–W367, 2018. <br/>
-            PMID: <a target='_blank' rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/29860391">29860391</a> DOI: <a target='_blank' rel="noopener noreferrer" href="https://doi.org/10.1093/nar/gky473">10.1093/nar/gky473</a>.</center>
+            <center>Bowei Ye, Wei Tian, Boshen Wang, Jie Liang. <br/></center>
+            
+                {/* Nucleic Acids Res. 46(W1): W363–W367, 2018.  */}
+            {/* PMID: <a target='_blank' rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/29860391">29860391</a> DOI: <a target='_blank' rel="noopener noreferrer" href="https://doi.org/10.1093/nar/gky473">10.1093/nar/gky473</a>.</center> */}
             </strong>
         </div>
     )
@@ -98,15 +101,15 @@ const BannerTitle = (
     <Link to={RootPath} className='bannerlink'>
         <Row type='flex' align='middle'>
             <Col>
-                <img src={logo} alt="CASTp" style={{ 'height': '80px' }} />
+                <img src={logo} alt="CASTpFold" style={{ 'height': '80px' }} />
             </Col>
             <Col span={1} />
             <Col>
                 <div style={{ 'fontSize': '40px' }}>
-                    CASTp
+                    CASTpFold
             </div>
                 <div style={{ 'fontSize': '20px' }}>
-                    <u>C</u>omputed <u>A</u>tlas of <u>S</u>urface <u>T</u>opography of <u>p</u>roteins
+                    <u>C</u>omputed <u>A</u>tlas of <u>S</u>urface <u>T</u>opography of <u>p</u>rotein <u>Fold</u>ing universe
             </div>
             </Col>
         </Row>

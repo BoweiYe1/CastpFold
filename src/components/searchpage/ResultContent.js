@@ -8,7 +8,8 @@ import MeasurePanel from './MeasurePanel';
 import FeaturePanel from "./FeaturePanel";
 import SequencePanel from './SequencePanel';
 import ResultNotFound from './ResultNotFound';
-import PocketSimilarity from './PocketSimilarity';
+// import PocketSimilarity from './PocketSimilarity';
+import OnestepPocSimViewer from './OnestepPocSimViewer';
 
 
 class ResultContent extends Component{
@@ -18,10 +19,12 @@ class ResultContent extends Component{
         this.measureref = React.createRef();
         this.seqref = React.createRef();
         this.featref = React.createRef();
-        this.pocsimi = React.createRef();
+        // this.pocsimi = React.createRef();
+        this.onestepps = React.createRef();
     }
     render = ()=>{
-        console.log('RC')
+        // console.log('RC')
+        const shouldHidePanels = this.props.searchid.length === 15;
         return (
             <div>
                 <Row type='flex' justify='space-around'>
@@ -46,7 +49,8 @@ class ResultContent extends Component{
                         <SequencePanel ref={this.seqref} />
                     </Col>
                 </Row>
-
+                {!shouldHidePanels && (
+                <React.Fragment>
                 <br/>
                 <Row type='flex' justify='space-around'>
                     <Col span={23}>
@@ -54,19 +58,30 @@ class ResultContent extends Component{
                     </Col>
                 </Row>
 
-                <br/>
+                {/* <br/>
                 <Row type='flex' justify='space-around'>
                     <Col span={23}>
                         <PocketSimilarity ref={this.pocsimi} />
                     </Col>
+                </Row> */}
+
+                <br/>
+                <Row type='flex' justify='space-around'>
+                    <Col span={23}>
+                        <OnestepPocSimViewer ref={this.onestepps} />
+                    </Col>
                 </Row>
+                </React.Fragment>
+                )}
 
                 <ControlPanel refs={[
                     this.generalref,
                     this.measureref, 
                     this.seqref, 
-                    this.featref,
-                    this.pocsimi
+                    // this.featref,
+                    // this.pocsimi,
+                    // this.onestepps
+                    ...(!shouldHidePanels ? [this.featref, this.onestepps] : []),
                 ]}/>{/**TODO change controlpanel to be automatic */}
                 <ResultNotFound />
             </div>

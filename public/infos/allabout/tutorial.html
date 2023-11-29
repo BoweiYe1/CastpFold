@@ -1,22 +1,143 @@
 <link type="text/css" rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/antd@3.10.7/dist/antd.min.css" />
 
-
-<h2>How to use CASTp to study pockets and cavities of molecules</h2>
+<h2>How to use CASTpFold to study pockets and cavities of molecules</h2>
 
 <ul>
-    <li><a href='#whats_pocket'></a></li>
-    <li><a href='#measure_pocket'></a></li>
-    <li><a href='#upload'></a></li>
+    <li><a href='#AFdb'>CASTpFold database/search guide</a></li>
+    <li><a href='#Pocsim'>Pockets similarity</a></li>
+    <li><a href='#Function_Poc'>Functional pocket prediction</a></li>
+    <li><a href='#whats_pocket'>Pocket and mouth </a></li>
+    <li><a href='#measure_pocket'>Solvent accessible(SA) vs excluded(SE); surface area(SA) vs pocket volume(V)</a></li>
+    <!-- <li><a href='#upload'></a></li> -->
 </ul>
+<br/>
+
+<h3 id='AFdb'> 1. CASTpFold database/search guide</h3>
+<p>
+    We exclusively offer surface topography analysis for full-length PDB/AF2 proteins, as functional pockets are predominantly located on the protein surface.
+    Out of the vast dataset comprising over 214 million AF2-predicted structures, a total of 18,661,407 clustered structure representatives is recognized by Foldseek (Inigo, et al. 2023).
+    By eliminating all sequences categorized as "fragment" in Uniprot, 2,302,908 non-singleton cluster representatives remain, which cover 30,045,247 "non-fragment" AF2-predicted structures.
+</p>
+<div style="text-align: center;">
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/pocrep.png" style="height: 130px;">
+        <figcaption>A: Representative found for AF2 ID</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/noresult.png" style="height: 130px;">
+        <figcaption>B: No result for AF2-like ID</figcaption>
+    </figure>
+</div>
+<p>
+    In addition to the typical PDB/AF2 representative search, when a query is conducted within the pool of 30,045,247 "non-fragment" structures, the search will be automatically rerouted to its corresponding representative AF2 structure, as depicted in Fig A.
+    Nevertheless, if a AF2-like search identifier is not found within the "non-fragment" group, it is highly likely to be associated with a "fragment" search. In such cases, the search results will be displayed as illustrated in Fig B.
+</p>
+
+
+
+
+
 
 <br/>
-<h3 id='whats_pocket'></h3>
-<p>pocket, mouth</p>
+<h3 id='Pocsim'> 2. Pockets similarity</h3>
+
+<div style="text-align: center;">
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/6m0j_ppi_poc.png" style="height: 250px;">
+        <figcaption>A: Protein-Protein Interacting pocket: Sars-Cov2 Spike/ACE2 Complex </figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/human_hal_spoc.png" style="height: 250px;">
+        <figcaption>B: Surface pocket: Human histdine ammonia-lyase</figcaption>
+    </figure>
+</div>
+
+<p>
+    In our dataset of 186,122 PDB structures and 2.3 million AF2-predicted representative structures, we've gathered 4,112,199 surface pockets and 555,930 protein-protein interacting (PPI) pockets. 
+    These pockets contain at least 14 residues within them.
+</p>
+
+<p>
+    <i>PPI pockets</i> are regions where multiple protein chains intersect within protein complexes. They play a crucial role in recognizing and binding to other proteins.
+     In Fig A, we show an example of a PPI pocket highlighted in red volume, which exists between the Sars-Cov2 Spike protein and the Human ACE2 protein.
+
+    <i>surface pockets</i> are regions found on a single protein chain's surface. They can serve as active sites for catalytic reactions or as binding sites for molecules like substrates, cofactors, or regulators. 
+    In Fig B, we've marked a red volume to represent an active site-like pocket on the AF2-predicted human histidine ammonia-lyase structure.  
+</p>
+
+<p>
+    We perform clustering on both the PPI pockets database and the surface pockets database to identify groups of similar pockets within each dataset, using the Foldseek algorithm (Michel, et al, 2023). 
+    For all PPI and surface pockets (with similar pockets) containing a minimum of 14 residues from a single protein/complex, users can access and download the list of comparable pockets and visualize them within the "Pocket Similarity" section.
+</p>
+
 
 <br/>
-<h3 id='measure_pocket'></h3>
-<p>SA, SE; area vs volume; ranking, mouth</p>
+<h3 id='Pocsim'> 3. Functional pocket prediction</h3>
+<div style="text-align: center;">
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/predfunc.png" style="height: 250px;">
+        <figcaption>Predicted functional pockets for AF2 ID: A0A178E137</figcaption>
+    </figure>
+</div>
+<p>
+    We predict protein functions in the GO term/EC number format using DeepFri (Vladimir, et al. 2021), along with identifying the salient residues, for all 2.3 million AF2-predicted representatives. 
+    Additionally, we pinpoint the functional pocket responsible for carrying out the associated function, which contains these salient residues. 
+    For a single pocket, it may be predicted to serve various functions, as illustrated in the figure with an example for AF2 ID: A0A178E137.
+    
+</p>
+<br/>
+
+
+<h3 id='whats_pocket'> 4. Pocket and mouth</h3>
+<div style="text-align: center;">
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/2dpoc_mou.jpg" style="height: 180px;">
+        <figcaption>A: 2d pocket with 1 opening mouth (red edge)</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/2iwv_poc_mouth.png" style="height: 180px;">
+        <figcaption>B: 3d pocket with 2 opening mouth (top and bottom)</figcaption>
+    </figure>
+</div>
+<p>
+    After detecting the pocket based on the alpha-complex (see background), we identify atoms forming "rims" of the pocket mouth(s). A two-dimensional mouth is the red dotted edge on the boundary of the pocket (upper edge of triangle 1) in Fig A, 
+    and a three-dimensional pocket (PDB: 2iwv) has two mouths from the top and bottom shown in Fig B.
+</p>
 
 <br/>
-<h3 id='upload'></h3>
-<p>hetatm, mostfreq, probe</p>
+<h3 id='measure_pocket'>5. Solvent accessible(SA) vs solvent excluded(SE); surface area(SA), pocket volume(V)</h3>
+
+<div style="text-align: center;">
+    <figure style="display: inline-block; margin: 10px;">
+        <img src="figs/SA_SE.png" style="height: 200px;">
+        <figcaption>Solvent accessible surface(SAS) vs solvent exluded surface (SES)</figcaption>
+    </figure>
+</div>
+<p>
+    The difference between <i>Solvent accessible</i> and <i>Solvent excluded</i> surface can be found in Fig (Diogo, et al, 2016), and in CASTpFold we only show the SA surface area and volume (Liang et al, 1998b).
+    The pocket solvent accessible surface area (SASA) is the two-dimensional measure describing the SA surface area of a pocket that is accessible to solvent molecules, 
+    and the pocket solvent accessible volume (SAE) is the three-dimensional measure that refers to the volume filling the pocket that is accessible to solvent molecules.
+</p>
+
+<hr >
+<br/>
+<b>References:</b>
+<ul>
+    <li>Barrio-Hernandez, Inigo, et al. Clustering Predicted Structures at the Scale of the Known Protein Universe.&nbsp;
+         <i>Nature,</i> vol. 622, no. 7983, Oct. 2023, pp. 637–45</li>
+    <li>van Kempen, Michel, et al. Fast and Accurate Protein Structure Search with Foldseek.&nbsp;
+         <i>Nature Biotechnology,</i> May 2023</li>
+    <li>Gligorijević, Vladimir, et al. Structure-Based Protein Function Prediction Using Graph Convolutional Networks.&nbsp;
+         <i>Nature Communications,</i> vol. 12, no. 1, May 2021, p. 3168</li>
+    <li>Santos-Martins, Diogo, et al. Calculation of Distribution Coefficients in the SAMPL5 Challenge from Atomic Solvation Parameters and Surface Areas.&nbsp;
+         <i>Journal of Computer-Aided Molecular Design,</i> vol. 30, no. 11, Nov. 2016, pp. 1079–86</li>
+    <li>Liang J, Edelsbrunner H, Woodward C.&nbsp; 1998. Anatomy of protein pockets and caviteis: measurement
+        of binding site geometry and implications for ligand design.
+        <i>Protein Science.</i>&nbsp; 7:1884-1897.</li>
+    <li>J. Liang, H. Edelsbrunner, P. Fu, P.V. Sudhakar and S. Subramaniam.&nbsp; 1998. Analytical shape
+        computing of macromolecules I: molecular area and volume through alpha shape .
+        <i>Proteins.</i> 33, 1-17. </li>
+    <li>Liang J, Edelsbrunner H, Fu P, Sudhakar PV, Subramaniam S. 1998b.&nbsp; Analytical shape computation
+        of macromolecules. II. Identification and computation of inaccessible cavities in proteins.&nbsp;
+        <i>Proteins: Struct. Funct. Genet.</i>&nbsp; 33:18-29.</li>
+</ul>

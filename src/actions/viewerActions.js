@@ -20,6 +20,7 @@ const setupBulb = (bulb,pdbid) => ({
 
 function initializeBulbs(pdbid){
     let state = store.getState();
+    // console.log(state);
     if(state.viewer.bulb && pdbid === state.viewer.pdbid){
         return;
     }
@@ -28,10 +29,13 @@ function initializeBulbs(pdbid){
 
 export function bulbShow(pocId, show){
     initializeBulbs(store.getState().repository.general.value.name.toLowerCase())
+    // console.log(store.getState().repository.general.value.name)
     let state = store.getState();
     // console.log(state)
     let {viewer,bulb} = state.viewer;
     // console.log(bulb);
+    // console.log(viewer);
+    
     // console.log(bulb[pocId]);
 
     if(show){
@@ -47,7 +51,7 @@ export function bulbShow(pocId, show){
     }
     bulb[pocId].updateStyle({hidden:!show})
     viewer.render();
-    console.log(state)
+    // console.log(state)
 }
 
 export function bulbColor(pocId, color){
@@ -67,37 +71,47 @@ export function resStyle(residues, style){
         residues.forEach(res=>{
             viewer.setStyle( {chain:res.chain, resi:res.seqId}, spec);
         });
+        
 
+        // let atoms = []
+        // residues.forEach(res => {
+        //     res.atom.forEach(atm =>{
+        //         atoms.push({chain:res.chain, resi:res.seqId, atom:atm.atom});
+        //     })
+        // });
         let atoms = []
         residues.forEach(res => {
-            res.atoms.forEach(atm =>{
-                atoms.push({chain:res.chain, resi:res.seqId, atom:atm.atom});
-            })
+            atoms.push({chain:res.chain, resi:res.seqId, atom:res.atom});
         });
+        // viewer.addSurface("VDW", {color: "grey", opacity: 0.5}, atoms);
+        // console.log(atoms);
 
-        viewer.addSurface("VDW", {},
+        viewer.addSurface("VDW", {color: "grey",opacity: 0.8},
             {
                 predicate: function (atom) {
                     for (var k = 0; k < atoms.length; k++) {
+                        // console.log(atom);
                         // show the surface of only the pocket-forming atoms                            
-                        if (atom.chain === atoms[k].chain && atom.resi === atoms[k].resi && atom.atom === atoms[k].atom) {
-                            return true;
-                        }
-                    }
-                    return false;
-                }
-            },
-            {
-                predicate: function (atom) {
-                    for (var k = 0; k < atoms.length; k++) {
-                        // select the whole residues to construct the surface
-                        if (atom.chain === atoms[k].chain && atom.resi === atoms[k].resi) {
+                        if (atom.chain === atoms[k].chain && atom.rescode === atoms[k].resi && atom.atom === atoms[k].atom) {
                             return true;
                         }
                     }
                     return false;
                 }
             }
+            // {
+            //     predicate: function (atom) {
+            //         for (var k = 0; k < atoms.length; k++) {
+                        
+            //             // select the whole residues to construct the surface
+            //             if (atom.chain === atoms[k].chain && atom.rescode === atoms[k].resi) {
+                           
+            //                 return true;
+            //             }
+            //         }
+            //         return false;
+            //     }
+            // }
         );
     }
     else{
@@ -113,7 +127,7 @@ export function resStyle(residues, style){
 
 export function protColor(colorful){
     let viewer = store.getState().viewer.viewer;
-    console.log(store.getState());
+    // console.log(store.getState());
     if(colorful){
         viewer.setStyle({}, {cartoon:{color: 'spectrum'}}, true);
     }

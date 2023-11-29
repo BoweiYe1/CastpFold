@@ -54,14 +54,24 @@ class InfoLayout extends Component {
             // prepare content
             console.log(mydata)
             MyContent = () => (
-                <iframe src={RootPath+`${mydata[recIndex].path}`} title="CASTp Info" style={{'width':'100%','height':'100%','borderWidth':'0'}}/>
+                <iframe src={RootPath+`${mydata[recIndex].path}`} title="CASTpFold Info" style={{'width':'100%','height':'100%','borderWidth':'0'}}/>
             );
         }
 
+        // return (
+        //     <Layout>
+        //         <Sider style={{background: '#ffffff'}}><MySider /></Sider>
+        //         <Content style={{padding: '0 24px',background: '#ffffff'}}><MyContent /></Content>
+        //     </Layout>
+        // )
         return (
-            <Layout>
-                <Sider style={{background: '#ffffff'}}><MySider /></Sider>
-                <Content style={{padding: '0 24px',background: '#ffffff'}}><MyContent /></Content>
+            <Layout style={{ minHeight: '100vh' }}> {/* This ensures that the Layout takes up full viewport height */}
+                <Sider style={{ background: '#ffffff', overflow: 'hidden' }}> {/* overflow hidden to remove scroll */}
+                    <MySider />
+                </Sider>
+                <Content style={{ padding: '0 24px', background: '#ffffff', overflow: 'hidden' }}> {/* overflow hidden to remove scroll */}
+                    <MyContent />
+                </Content>
             </Layout>
         )
     }

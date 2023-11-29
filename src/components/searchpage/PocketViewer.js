@@ -36,7 +36,7 @@ class PocketViewer extends Component {
     
     createViewer = () => {
         const viewerId = this.getViewerId();
-        console.log("vid",viewerId);
+        // console.log("vid",viewerId);
         const { searchId } = this.props;
         const { pocId } = this.props;
         const { similarMemberPdbId } = this.props;
@@ -49,7 +49,7 @@ class PocketViewer extends Component {
                     [viewerId]: simipocviewer,
                 },
             }), () => {
-                console.log("Updated state:", this.state);
+                // console.log("Updated state:", this.state);
             });
         }
     };
@@ -63,7 +63,7 @@ class PocketViewer extends Component {
     const viewerId = this.getViewerId(); // The unique viewer identifier
 
     let viewer = this.state.simipocviewer[viewerId];
-    console.log("renderviewer state:", this.state);
+    // console.log("renderviewer state:", this.state);
     viewer.clear();
 
 
@@ -127,7 +127,7 @@ class PocketViewer extends Component {
                 loading: true,
                 simipocviewer: {
                     ...this.state.simipocviewer,
-                    // [oldViewerId]: undefined // Optionally remove the old viewer instance
+                    //  [oldViewerId]: undefined // Optionally remove the old viewer instance
                 },
                 similarPocketBulbData: null,
             }, () => {

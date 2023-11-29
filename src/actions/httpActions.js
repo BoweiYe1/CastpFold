@@ -159,6 +159,26 @@ export function fetchSimiPocMeasure(pdb){
     store.dispatch(getSimiPocMeasure(pdb));
 }
 
+export function onestepfetchSimiPocBulbData(pdb) {
+    return (dispatch) => {
+        return new Promise((resolve, reject) => {
+            // Perform asynchronous operation here
+            // For example, using fetch or axios to get data
+            fetch(pdbBulbUrl(pdb))
+                .then(response => response.json())
+                .then(data => {
+                    // console.log(data);
+                    dispatch({ type: 'FETCH_BULB_DATA_SUCCESS', payload: {data,pdb} });
+                    resolve(data);
+                })
+                .catch(error => {
+                    dispatch({ type: 'FETCH_BULB_DATA_FAILURE', error });
+                    reject(error);
+                });
+        });
+    };
+}
+
 // function getPdbFile(pdb){
 //     return buildActionsFromMappings([{
 //         resource: 'pdb',

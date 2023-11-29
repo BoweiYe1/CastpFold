@@ -31,7 +31,7 @@ class CalculationForm extends Component {
                 this.popErrorMessage(<div>Something is wrong!<br/>{err}</div>)
             }
         });
-        // console.log(valuesToSubmit);
+        console.log(valuesToSubmit);
         if (valuesToSubmit){
             this.setState({ uploading: true, });
             var data = new FormData();
@@ -47,20 +47,20 @@ class CalculationForm extends Component {
             // data.append('hetatm', valuesToSubmit.hetatm);
             // data.append('mostfreq', valuesToSubmit.mostfreq);
 
-            // console.log(this.state);
+            console.log(this.state);
 
             let tmpthis = this;
             window.jQuery.ajax({
                 type: "POST",
                 //url: "http://sts.bioe.uic.edu/castp/dev/submit_calc.php",
-                url: "http://192.168.3.4/castpfold/submit_calc.php",
+                url: "http://10.8.169.96/castpfold/submit_calc.php",
                 data: data,
                 processData: false,
                 contentType: false,
                 success: function (serverReturn) {
-                    // console.log(serverReturn)
+                    console.log(serverReturn)
                     serverReturn = JSON.parse(serverReturn);
-                    // console.log(serverReturn)
+                    console.log(serverReturn)
                     if (serverReturn.success) {
                         Modal.success({
                                 title: "Job submitted successfully!",
@@ -126,7 +126,7 @@ class CalculationForm extends Component {
 
     processUpload = (e) => {
         if (Array.isArray(e)) {
-            // console.log('herereerereeeeee')
+            console.log('herereerereeeeee')
             return e;
         }
         if (this.fileInList(e.file,e.fileList)){
@@ -222,7 +222,7 @@ class CalculationForm extends Component {
                             <span className="ant-form-text"> Å </span>
                             {/* <span className="ant-form-text"> Angstroms</span> */}
                         </Form.Item>
-                        {/* <Form.Item
+                        <Form.Item
                             wrapperCol={ {span: 20} }
                             extra="Only ATOM records in the PDB file
                                 are used in computation by default.
@@ -250,7 +250,7 @@ class CalculationForm extends Component {
                             })(
                                 <Checkbox>Use most frequent alternative locations</Checkbox>
                             )}
-                        </Form.Item> */}
+                        </Form.Item>
                     </Collapse.Panel>
                     </Collapse>        
                 </Form.Item>

@@ -12,39 +12,49 @@ const randomPDB = ()=>{
 }
 
 class SearchPage extends Component {
-    fetchResultData = ()=>{
-        if (this.props.searchid.length === 6 || this.props.searchid.length === 10) {
-            fetchAFmap(this.props.searchid);
-        }
-        fetchPdbGeneral(this.props.searchid);
-        // fetchPdbAssembly(this.props.searchid);
-        fetchPocMeasure(this.props.searchid);
-        fetchSeqInfo(this.props.searchid);
-        fetchFeatInfo(this.props.searchid);
-        fetchBulbData(this.props.searchid);
-        fetchPocSimi(this.props.searchid);
-        
+    transformSearchId = (id) => {
+        if (id.length === 4) {
+            return id.toLowerCase();
+        } else if (id.length === 6 || id.length === 10) {
+            return id.toUpperCase();
+        } else if (id.length === 15 ) {
+            return id.toLowerCase();
+        } 
+        return id;
     }
-    componentDidMount(){
-        if(this.props.searchid!==''){
-            console.log('mount')
+
+    fetchResultData = () => {
+        const transformedId = this.transformSearchId(this.props.searchid);
+
+        if (transformedId.length === 6 || transformedId.length === 10) {
+            fetchAFmap(transformedId);
+        }
+        fetchPdbGeneral(transformedId);
+        fetchPocMeasure(transformedId);
+        fetchSeqInfo(transformedId);
+        fetchFeatInfo(transformedId);
+        fetchBulbData(transformedId);
+        fetchPocSimi(transformedId);
+    }
+
+    componentDidMount() {
+        if (this.props.searchid !== '') {
             this.fetchResultData();
         }
     }
-    componentDidUpdate(){
-        if(this.props.searchid!==''){
-            console.log('update')
+
+    componentDidUpdate() {
+        if (this.props.searchid !== '') {
             this.fetchResultData();
         }
     }
 
     render = () => {
-        console.log('SP',this.props)
-        // when no pdbid specified, show a random one
-        if (this.props.searchid === '') {
-            return (<Redirect to={RootPath+`search?${randomPDB()}`} />)
+        const transformedId = this.transformSearchId(this.props.searchid);
+        if (transformedId === '') {
+            return (<Redirect to={RootPath + `search?${randomPDB()}`} />)
         }
-        return ( <ResultContent/> )
+        return (<ResultContent />)
     }
 };
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Spin, Affix, Card, Switch, Button} from 'antd'
 import {initializeGlobalViewer, protColor} from '../../actions/viewerActions';
+import { fetchBulbData} from  '../../actions/httpActions'
 import {connect} from 'react-redux';
 import {pdbPdbFileUrl} from '../../UrlManager'
 import './molviewer.css'
@@ -11,66 +12,42 @@ class MolViewer extends Component {
         this.state = { loading: true, affixed: false, searchid:null };
     }
 
-    // componentDidMount=()=>{
-    //     this.createViewer();
-    //     this.setState({
-    //         loading: false,
-    //         height: document.getElementById('viewer-box').clientHeight,
-    //         width: document.getElementById('viewer-box').clientWidth,
-    //         searchid:this.props.searchid,
-    //     })
+    transformSearchId = (id) => {
+        if (id.length === 4) {
+            return id.toLowerCase();
+        } else if (id.length === 6 || id.length === 10) {
+            return id.toUpperCase();
+        } else if (id.length === 15) {
+            return id.toLowerCase();
+        }
+        return id;
+    }
 
-    //     this.renderViewer();
-    // }
-
-    // componentDidMount = () => {
-    //     this.createViewer();
-    
-    //     this.setState({
-    //         loading: false,
-    //         height: document.getElementById('viewer-box').clientHeight/2,
-    //         width: document.getElementById('viewer-box').clientWidth/2,
-    //         searchid: this.props.searchid,
-    //     }, () => {
-    //         this.renderViewer();
-    //     });
-    // }
     componentDidMount = () => {
+        const transformedId = this.transformSearchId(this.props.searchid);
         this.createViewer();
-        const viewerBox = document.getElementById('viewer-box');
+        const viewerBox = document.getElementById(`viewer-box${transformedId}`);
         this.setState({
             loading: false,
             originalHeight: viewerBox.clientHeight,
             originalWidth: viewerBox.clientWidth,
-            affixedHeight: viewerBox.clientHeight , // or any other size you want when affixed
-            affixedWidth: viewerBox.clientWidth ,   // or any other size you want when affixed
-            searchid: this.props.searchid,
+            affixedHeight: viewerBox.clientHeight, 
+            affixedWidth: viewerBox.clientWidth,   
+            searchid: transformedId,
         }, () => {
             this.renderViewer();
         });
     }
 
-    componentDidUpdate=()=>{
-        if(this.state.searchid!==this.props.searchid){
-            this.setState({searchid:this.props.searchid});
+
+    componentDidUpdate = () => {
+        const transformedId = this.transformSearchId(this.props.searchid);
+        if(this.state.searchid !== transformedId){
+            this.setState({searchid: transformedId});
             this.renderViewer();
         }
     }
 
-    // changeAffixStatus = () => {
-    //     let viewer = this.viewer;
-    //     this.setState({ affixed: !(this.state.affixed), searchid:this.props.searchid });
-    //     if(viewer){ // TODO && have data
-    //         if (!this.state.affixed) {
-    //             viewer.setHeight(this.state.height);
-    //             viewer.setWidth(this.state.width);
-    //         }
-    //         else {
-    //             viewer.setHeight(this.state.height);
-    //             viewer.setWidth(this.state.width);
-    //         }
-    //     }
-    // }
     changeAffixStatus = (affixed) => {
         let viewer = this.viewer;
         const { originalHeight, originalWidth, affixedHeight, affixedWidth } = this.state;
@@ -86,12 +63,14 @@ class MolViewer extends Component {
             viewer.render();
         }
     }
+    
 
     render = () => (
         <div align='right'>
             <Affix offsetTop={40} onChange={this.changeAffixStatus} >
                 <Spin spinning={this.state.loading} size="large">
-                    <Card id='viewer-box' className={this.state.affixed ? 'testaffixed' : 'test'}/>
+                    <Card id={`viewer-box${this.transformSearchId(this.props.searchid)}`} className={this.state.affixed ? 'testaffixed' : 'test'}>
+                    </Card>
                     {/* <Button size="small" type="primary" onClick={() => this.componentDidMount()} className="load-button">
                         Reload Viewer
                     </Button> */}
@@ -109,18 +88,23 @@ class MolViewer extends Component {
         if(this.viewer){
             return;
         }
-        this.viewer = window.$3Dmol.createViewer('viewer-box', {})
+        const transformedId = this.transformSearchId(this.props.searchid);
+        this.viewer = window.$3Dmol.createViewer(`viewer-box${transformedId}`, {})
         initializeGlobalViewer(this.viewer);
     }
 
     renderViewer = () => {
-        const {searchid} = this.props;
+        // const {searchid} = this.props;
+        // let viewer = this.viewer;
+        // viewer.clear();
+        const transformedId = this.transformSearchId(this.props.searchid);
+        // console.log(searchid);
         let viewer = this.viewer;
         viewer.clear();
-        console.log(this.viewer);
-        console.log(this);
+        // console.log(this.viewer);
+        // console.log(this);
 
-        window.jQuery.ajax(pdbPdbFileUrl(searchid),{
+        window.jQuery.ajax(pdbPdbFileUrl(transformedId),{
             success: function(data){
                 viewer.addModel( data, "pdb" );                       /* load data */
                 viewer.setStyle({}, {cartoon: {color: 'spectrum'}});  /* style all atoms */
@@ -153,7 +137,7 @@ class MolViewer extends Component {
     
             },
               error: function(hdr, status, err) {
-                console.error( "Failed to load PDB " + pdbPdbFileUrl(searchid) + ": " + err );
+                console.error( "Failed to load PDB " + pdbPdbFileUrl(transformedId) + ": " + err );
               },
         })
     }
